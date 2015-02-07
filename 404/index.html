@@ -1,4 +1,4 @@
-<!DOCTYPE html><html xmlns=http://www.w3.org/1999/xhtml xml:lang=en lang=en-us><head><link href=http://gmpg.org/xfn/11 rel=profile><meta http-equiv=content-type content="text/html; charset=utf-8"><meta name=viewport content="width=device-width"><title>404: Page not found &middot; antonio's blog</title><link rel=stylesheet href=/assets/stylesheets/style.min.7d578bf4.css><link href="http://fonts.googleapis.com/css?family=Raleway" rel=stylesheet type=text/css><link rel=stylesheet href="http://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|PT+Sans:400"><script src=/assets/javascript/all.min.f51426c9.js></script><link rel=apple-touch-icon-precomposed sizes=144x144 href=/assets/images/touch/apple-touch-icon-144-precomposed.png><link rel="shortcut icon" href=/assets/favicon.ico><link rel=alternate type=application/rss+xml title=RSS href=/atom.xml><script>$(function() {
+<!DOCTYPE html><html xmlns=http://www.w3.org/1999/xhtml xml:lang=en lang=en-us><head><link href=http://gmpg.org/xfn/11 rel=profile><meta http-equiv=content-type content="text/html; charset=utf-8"><meta name=viewport content="width=device-width"><title>404: Page not found &middot; antonio's blog</title><link rel=stylesheet href=/assets/stylesheets/style.min.824dc40c.css><link href="http://fonts.googleapis.com/css?family=Raleway" rel=stylesheet type=text/css><link rel=stylesheet href="http://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|PT+Sans:400"><script src=/assets/javascript/all.min.2fc4b7c7.js></script><link rel=apple-touch-icon-precomposed sizes=144x144 href=/assets/images/touch/apple-touch-icon-144-precomposed.png><link rel="shortcut icon" href=/assets/favicon.ico><link rel=alternate type=application/rss+xml title=RSS href=/atom.xml><script>$(function() {
         $.scrollUp({
             scrollName: 'scrollUp', // Element ID
             scrollDistance: 300, // Distance from top/bottom before showing element (px)
@@ -29,5 +29,54 @@
     }</style></head><body class=theme-base-0f><input type=checkbox class=sidebar-checkbox id=sidebar-checkbox><div class=sidebar id=sidebar><div class=sidebar-item><img class=pic_of_me src=../assets/images/pic_of_me.jpg alt=""><p>a blog about the dev world and stu</p></div><nav class=sidebar-nav><a class=sidebar-nav-item href="/">Home</a> <a class=sidebar-nav-item href="/">Resume</a> <a class=sidebar-nav-item href="/">Contact</a> <a class=sidebar-nav-item href="/about/">About me</a> <a class=sidebar-nav-item href=https://github.com/sondr3/generator-jekyllized>Jekyllized on Github</a> <a class=sidebar-nav-item href=https://github.com/poole>Poole on Github</a> <span class=sidebar-nav-item>Run by <a href=https://twitter.com/antonio_ortiz>@antonio<a></a></span></nav><div class=sidebar-item><p>&copy; 2015. All rights reserved.</p></div></div><div class=wrap><div class=masthead><label for=sidebar-checkbox class=sidebar-toggle></label><div class=container><h3 class=masthead-title><a href="/" title=Home>antonio's blog</a> <small>let's get out of the desert together!</small></h3></div></div><div id=carousel-example-generic class="carousel slide" data-ride=carousel><ol class=carousel-indicators><li data-target=#carousel-example-generic data-slide-to=0 class=active></li><li data-target=#carousel-example-generic data-slide-to=1></li><li data-target=#carousel-example-generic data-slide-to=2></li></ol><div class=carousel-inner role=listbox><div class="item active slider-size"><img src=../assets/images/sliderContent/antBlogSliderImage_1.png alt="Slider Image"><div class=carousel-caption><p>great site</p></div></div><div class="item slider-size"><img src=../assets/images/sliderContent/antBlogSliderImage_1.png alt="Slider Image"><div class=carousel-caption><p>great site</p></div></div><div class="item slider-size"><img src=../assets/images/sliderContent/antBlogSliderImage_1.png alt="Slider Image"><div class=carousel-caption><p>great site</p></div></div></div><a class="left carousel-control" href=#carousel-example-generic role=button data-slide=prev><span class="glyphicon glyphicon-chevron-left" aria-hidden=true></span></a> <a class="right carousel-control" href=#carousel-example-generic role=button data-slide=next><span class="glyphicon glyphicon-chevron-right" aria-hidden=true></span></a></div><div class="container content"><a id=showHere></a><div class=page><h1 class=page-title>404: Page not found</h1><p class=lead>Sorry, we've misplaced that URL or it's pointing to something that doesn't exist. <a href="/">Head back home</a> to try finding it again.</p></div></div></div><script>$(document).ready(function() {
         $('.carousel').carousel()
             // Set options
-     
-    });</script></body></html>
+        var options = {
+            offset: '#showHere',
+            classes: {
+                clone: 'masthead--clone',
+                stick: 'masthead--stick',
+                unstick: 'masthead--unstick'
+            }
+        };
+
+        // Initialise with options
+        var banner = new Headhesive('.masthead', options);
+
+        // Headhesive destroy
+        // $('.sidebar-checkbox').on("click", function() {
+        //     banner.destroy();
+        //     $.scrollUp.destroy();
+
+        // });
+        var sidebarCheckbox = $('.sidebar-checkbox');
+        sidebarCheckbox.funcToggle('click', function() {
+            banner.destroy();
+            $.scrollUp.destroy();
+        }, function() {
+            $.scrollUp({
+                scrollName: 'scrollUp', // Element ID
+                scrollDistance: 300, // Distance from top/bottom before showing element (px)
+                scrollFrom: 'top', // 'top' or 'bottom'
+                scrollSpeed: 1000, // Speed back to top (ms)
+                easingType: 'linear', // Scroll to top easing (see http://easings.net/)
+                animation: 'fade', // Fade, slide, none
+                animationSpeed: 200, // Animation speed (ms)
+                scrollTrigger: false, // Set a custom triggering element. Can be an HTML string or jQuery object
+                scrollTarget: false, // Set a custom target element for scrolling to. Can be element or number
+                scrollText: 'Scroll to top', // Text for element, can contain HTML
+                scrollTitle: false, // Set a custom <a> title if required.
+                scrollImg: false, // Set true to use image
+                activeOverlay: false, // Set CSS color to display scrollUp active point, e.g '#00FFFF'
+                zIndex: 2147483647 // Z-Index for the overlay
+            });
+            var options = {
+                offset: '#showHere',
+                classes: {
+                    clone: 'masthead--clone',
+                    stick: 'masthead--stick',
+                    unstick: 'masthead--unstick'
+                }
+            };
+            var banner = new Headhesive('.masthead', options);
+
+        });
+    });</script><script type=text/javascript src=/assets/javascript/jquery.smoothState.js></script><script type=text/javascript src=/assets/javascript/smoothStateFunc.js></script></body></html>

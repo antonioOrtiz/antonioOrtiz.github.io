@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+{% include head.html %}
+
+<body class="theme-base-0f">
+    {% include sidebar.html %}
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+        content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+        <div class="masthead">
+            <div class="contianerL">
+                <h3 class="masthead-title">
+                    <a href="/" title="Home">{{ site.title }}</a>
+                    <small>{{ site.tagline }}</small>
+                    </h3>
+            </div>
+        </div>
+        <div class="bodyWrapper">
+            {% include carousel.html %}
+            <div class="contianerL content">
+                <a id="showHere"></a>
+                {{ content }}
+            </div>
+        </div>
+    </div>
+    <label style="position:fixed" for="sidebar-checkbox" class="sidebar-toggle"></label>
+    <!-- JS -->
+    <!-- build:js {{ site.baseurl }}/assets/javascript/all.min.js -->
+    <script type="text/javascript" src="/assets/javascript/jquery-1.11.1.js"></script>
+    <script type="text/javascript" src="{{ site.baseurl }}/assets/javascript/jquery.mixitup.js"></script>
+    <script type="text/javascript" src="{{ site.baseurl }}/assets/javascript/jquery.easing.js"></script>
+    <script type="text/javascript" src="{{ site.baseurl }}/assets/javascript/jquery.scrollUp.js"></script>
+    <script type="text/javascript" src="{{ site.baseurl }}/assets/javascript/bootstrap.js"></script>
+    <script type="text/javascript" src="{{ site.baseurl }}/assets/javascript/jBox.js"></script>
+    <!-- endbuild -->
+    
+
+
+    <script>
+    var foo = $.noConflict();
+    foo(document).ready(function() {
+        foo('#Container').mixItUp();
+        foo('.carousel').carousel();
+        foo.scrollUp({
+            scrollName: 'scrollUp', // Element ID
+            scrollDistance: 300, // Distance from top/bottom before showing element (px)
+            scrollFrom: 'top', // 'top' or 'bottom'
+            scrollSpeed: 1000, // Speed back to top (ms)
+            easingType: 'easeInOutCubic', // Scroll to top easing (see http://easings.net/)
+            animation: 'slide', // Fade, slide, none
+            animationSpeed: 200, // Animation speed (ms)
+            scrollTrigger: false, // Set a custom triggering element. Can be an HTML string or jQuery object
+            scrollTarget: false, // Set a custom target element for scrolling to. Can be element or number
+            scrollText: 'Scroll to top', // Text for element, can contain HTML
+            scrollTitle: false, // Set a custom <a> title if required.
+            scrollImg: false, // Set true to use image
+            activeOverlay: false, // Set CSS color to display scrollUp active point, e.g '#00FFFF'
+            zIndex: 2147483647 // Z-Index for the overlay
+        });
+        foo('.resume').jBox('Tooltip', {
+            animation: 'pulse',
+            theme: 'TooltipDark',
+            closeOnClick: true
+        });
+       new jBox('Image', {
+            width: 500,
+            height: 500,
+            imageFade:2000,
+            animation: 'slide',
+            addClass: '.jBox-wrapper '
+        });
+
+    });
+    </script>
+    <!-- get -->
+</body>
+
+</html>

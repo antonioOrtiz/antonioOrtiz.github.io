@@ -1,0 +1,13 @@
+{
+  "name": "antonioortiz-github-io",
+  "version": "0.0.0",
+  "dependencies": {
+    "masonry": "~3.2.2"
+  },
+  "devDependencies": {
+    "uikit": "~2.17.0",
+    "scrollup": "~2.4.0",
+    "skeleton": "~2.0.4",
+    "mixitup": "~2.1.7"
+  }
+}

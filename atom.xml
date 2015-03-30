@@ -4,13 +4,24 @@
  <title>antonio's blog</title>
  <link href="antonioortiz.github.io/atom.xml" rel="self"/>
  <link href="antonioortiz.github.io/"/>
- <updated>2015-03-06T19:38:16-05:00</updated>
+ <updated>2015-03-29T18:43:28-04:00</updated>
  <id>antonioortiz.github.io</id>
  <author>
    <name>antonio</name>
    <email>17antonio.ortiz@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>This is my __proto__ post!</title>
+   <link href="antonioortiz.github.io/jekyll/2015/03/28/my-proto-post/"/>
+   <updated>2015-03-28T00:00:00-04:00</updated>
+   <id>antonioortiz.github.io/jekyll/2015/03/28/my-proto-post</id>
+   <content type="html">&lt;p&gt;So this is my first blog post!&lt;/p&gt;
+
+&lt;!--more--&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Welcome to Jekyll!</title>

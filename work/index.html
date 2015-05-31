@@ -140,21 +140,21 @@
         <button class="sort sortRight" data-sort="myorder:desc">Desc</button>
     </div>
     <div id="Container" class="container">
-        <div class="mix category-1" data-myorder="1"><a class="fancybox" data-fancybox-type="iframe" rel="gallery1" href="/..//assets/iframes/miro_photography.html" title="Miro Celic Photography"><img class="workImages" src="http://placehold.it/500x500" alt=""></a></div>
+        <a class="fancybox u-full-width" data-fancybox-type="iframe" rel="gallery1" href="/..//assets/iframes/miro_photography.html" title="Miro Celic Photography"><div class="mix category-1" data-myorder="1"></div></a>
 
-        <div class="mix category-1" data-myorder="2"><a class="fancybox" rel="gallery1" href="http://farm3.staticflickr.com/2880/10346743894_0cfda8ff7a_b.jpg" title="Les papillons ont du chagrin (JMS')"><img class="workImages" src="http://placehold.it/500x500" alt=""></a></div>
+        <a class="fancybox u-full-width" rel="gallery1" href="http://farm3.staticflickr.com/2880/10346743894_0cfda8ff7a_b.jpg" title="Les papillons ont du chagrin (JMS')"><div class="mix category-1" data-myorder="2"></div></a>
 
-        <div class="mix category-2" data-myorder="3"><a class="fancybox" rel="gallery1" href="http://farm4.staticflickr.com/3857/14395875498_c43e5c4415_b.jpg" title="Chedder Gorge with goats looking (Si Photography)"><img class="workImages" src="http://placehold.it/500x500" alt=""></a></div>
+        <a class="fancybox u-full-width" rel="gallery1" href="http://farm4.staticflickr.com/3857/14395875498_c43e5c4415_b.jpg" title="Chedder Gorge with goats looking (Si Photography)"><div class="mix category-2" data-myorder="3"></div></a>
 
-        <div class="mix category-2" data-myorder="4"><a class="fancybox" rel="gallery1" href="http://farm8.staticflickr.com/7475/15723733583_b4a7b52459_b.jpg" title="Pudacuo (OsvinC)"><img class="workImages" src="http://placehold.it/500x500" alt=""></a></div>
+        <a class="fancybox u-full-width" rel="gallery1" href="http://farm8.staticflickr.com/7475/15723733583_b4a7b52459_b.jpg" title="Pudacuo (OsvinC)"><div class="mix category-2" data-myorder="4"></div></a>
 
-        <div class="mix category-1" data-myorder="5"><a class="fancybox" rel="gallery1" href="http://farm3.staticflickr.com/2880/10346743894_0cfda8ff7a_b.jpg" title="Les papillons ont du chagrin (JMS')"><img class="workImages" src="http://placehold.it/500x500" alt=""></a></div>
+        <a class="fancybox u-full-width" rel="gallery1" href="http://farm3.staticflickr.com/2880/10346743894_0cfda8ff7a_b.jpg" title="Les papillons ont du chagrin (JMS')"><div class="mix category-1" data-myorder="5"></div></a>
 
-        <div class="mix category-1" data-myorder="6"><a class="fancybox" rel="gallery1" href="http://farm3.staticflickr.com/2880/10346743894_0cfda8ff7a_b.jpg" title="Les papillons ont du chagrin (JMS')"><img class="workImages" src="http://placehold.it/500x500" alt=""></a></div>
+        <a class="fancybox u-full-width" rel="gallery1" href="http://farm3.staticflickr.com/2880/10346743894_0cfda8ff7a_b.jpg" title="Les papillons ont du chagrin (JMS')"><div class="mix category-1" data-myorder="6"></div></a>
 
-        <div class="mix category-2" data-myorder="7"><a class="fancybox" rel="gallery1" href="http://farm4.staticflickr.com/3857/14395875498_c43e5c4415_b.jpg" title="Chedder Gorge with goats looking (Si Photography)"><img class="workImages" src="http://placehold.it/500x500" alt=""></a></div>
+        <a class="fancybox u-full-width" rel="gallery1" href="http://farm4.staticflickr.com/3857/14395875498_c43e5c4415_b.jpg" title="Chedder Gorge with goats looking (Si Photography)"><div class="mix category-2" data-myorder="7"></div></a>
 
-        <div class="mix category-2" data-myorder="8"><a class="fancybox" rel="gallery1" href="http://farm8.staticflickr.com/7475/15723733583_b4a7b52459_b.jpg" title="Pudacuo (OsvinC)"><img class="workImages" src="http://placehold.it/500x500" alt=""></a></div>
+        <a class="fancybox u-full-width" rel="gallery1" href="http://farm8.staticflickr.com/7475/15723733583_b4a7b52459_b.jpg" title="Pudacuo (OsvinC)"><div class="mix category-2" data-myorder="8"></div></a>
 
     
         
@@ -219,13 +219,14 @@
             addClass: 'jBoxID2'
         });
         foo(".fancybox").fancybox({
+            fitToView: true,
             openEffect: 'none',
             closeEffect: 'none',
-            type: 'iframe',
             centerOnScroll: true,
             autoCenter: true,
             iframe:
             {
+            type: 'iframe',
             scrolling : 'no',
             preload   : true
             }

@@ -191,13 +191,14 @@ At the moment I am really focused on JavaScript.</p>
             addClass: 'jBoxID2'
         });
         foo(".fancybox").fancybox({
+            fitToView: true,
             openEffect: 'none',
             closeEffect: 'none',
-            type: 'iframe',
             centerOnScroll: true,
             autoCenter: true,
             iframe:
             {
+            type: 'iframe',
             scrolling : 'no',
             preload   : true
             }

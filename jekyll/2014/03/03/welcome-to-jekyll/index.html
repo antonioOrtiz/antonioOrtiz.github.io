@@ -245,13 +245,14 @@ Jekyll. File all bugs/feature requests at <a href="https://github.com/mojombo/je
             addClass: 'jBoxID2'
         });
         foo(".fancybox").fancybox({
+            fitToView: true,
             openEffect: 'none',
             closeEffect: 'none',
-            type: 'iframe',
             centerOnScroll: true,
             autoCenter: true,
             iframe:
             {
+            type: 'iframe',
             scrolling : 'no',
             preload   : true
             }

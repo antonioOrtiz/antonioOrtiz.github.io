@@ -4057,12 +4057,10 @@ button {
   display: none; }
 
 .container .mix.category-1 {
-  border-top: 2px solid limegreen;
   margin-left: 2px !important;
   margin-right: 2px !important; }
 
 .container .mix.category-2 {
-  border-top: 2px solid yellow;
   margin-left: 2px !important;
   margin-right: 2px !important; }
 
@@ -4121,18 +4119,35 @@ button {
 #Container .mix {
   display: none; }
 
+#mirosite {
+  display: block; }
+
 @media (max-width: 420px) {
   .mix {
     width: 100% !important;
-    height: 100px !important; }
+    height: 90px !important; }
   .container .mix:before {
     content: '';
     display: inline-block;
-    padding-top: 10% !important; } }
+    padding-top: 10% !important; }
+  #mirosite {
+    background-position: 0px -22px;
+    background-image: url('../images/mirocelic_site.png');
+    background-size: cover; }
+  @media (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+    #mirosite {
+      background-position: 0px -20px;
+      background-image: url('../images/mirocelic_site.png');
+      background-size: cover; } } }
 
 @media all and (min-width: 421px) {
   .container .mix, .container .gap {
-    width: 32% !important; } }
+    width: 32% !important; }
+  #mirosite {
+    background-position: 0px -25px;
+    background-image: url('../images/mirocelic_icon.png');
+    background-size: 100%, cover;
+    overflow: visible; } }
 
 @media all and (min-width: 640px) {
   .container .mix, .container .gap {

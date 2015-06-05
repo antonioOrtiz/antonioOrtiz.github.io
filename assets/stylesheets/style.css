@@ -3877,7 +3877,7 @@ a:hover {
   z-index: 2;
   top: 0;
   left: 0;
-  position: fixed; }
+  position: absolute !important; }
 
 label.sidebar-toggle {
   z-index: 30000; }

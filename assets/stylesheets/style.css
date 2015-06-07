@@ -3769,11 +3769,15 @@ button {
     background-size: 100%, cover;
     overflow: visible; } }
 
-@media screen and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) {
+@media screen and (min-device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) {
   #mirosite {
     background-position: 0px 1px;
     background-image: url('../images/mirocelic_w288.png');
-    background-size: 100%; } }
+    background-size: 100%; }
+  .filterRight {
+    font-size: 15px; }
+  .filterLeft {
+    font-size: 15px; } }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
   #mirosite {

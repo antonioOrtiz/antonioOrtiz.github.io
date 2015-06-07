@@ -1,0 +1,1704 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font",
+				"font-size: 〔property〕"
+			],
+			[
+				"over",
+				"overflow"
+			],
+			[
+				"mir",
+				"mirosite"
+			],
+			[
+				"bac",
+				"bac	CSS background: #fff url('') 0 0 repeat;"
+			],
+			[
+				"miro",
+				"miro_page"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"cres",
+				"crestLogo"
+			],
+			[
+				"logo",
+				"logoContainer"
+			],
+			[
+				"padd",
+				"padding:0"
+			],
+			[
+				"post",
+				"position"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"flo",
+				"float"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"inl",
+				"inline"
+			],
+			[
+				"work",
+				"workImages"
+			],
+			[
+				"image",
+				"imageContainer"
+			],
+			[
+				"slide",
+				"slideDown	.slideDown()"
+			],
+			[
+				"ready",
+				"ready	$(document).ready"
+			],
+			[
+				"imo",
+				"important"
+			],
+			[
+				"f",
+				"function"
+			],
+			[
+				"on",
+				"on〔function〕"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"cli",
+				"click	.click()"
+			],
+			[
+				"rela",
+				"relative"
+			],
+			[
+				"ab",
+				"absolute"
+			],
+			[
+				"z",
+				"z-a	z-index: auto;"
+			],
+			[
+				"import",
+				"important"
+			],
+			[
+				"background-",
+				"background-image:   (property)"
+			],
+			[
+				"fon",
+				"font-size:   (property)"
+			],
+			[
+				"max-",
+				"max-height:   (property)"
+			],
+			[
+				"margin",
+				"margin-top:   (property)"
+			],
+			[
+				"be",
+				"beginAnimate"
+			],
+			[
+				"set",
+				"setTimeout  (function)"
+			],
+			[
+				"fun",
+				"fun	Function"
+			],
+			[
+				"function",
+				"new Function()	Function"
+			],
+			[
+				"funct",
+				"function"
+			],
+			[
+				"int",
+				"intervaleHandle"
+			],
+			[
+				"functio",
+				"new Function()	Function"
+			],
+			[
+				"if",
+				"ife	if … else"
+			],
+			[
+				"my",
+				"myNewH1"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"xm",
+				"xmasPicsArray"
+			],
+			[
+				"d",
+				"display  (variable)"
+			],
+			[
+				"tour",
+				"tourSelection"
+			],
+			[
+				"get",
+				"getElementById  (function)"
+			],
+			[
+				"func",
+				"onclick  (function)"
+			],
+			[
+				"onc",
+				"onclick  (function)"
+			],
+			[
+				"br",
+				"brochures"
+			],
+			[
+				"ind",
+				"index	.index()"
+			],
+			[
+				"impo",
+				"important"
+			],
+			[
+				"rust",
+				"rustyApp"
+			],
+			[
+				"com",
+				"components/js"
+			],
+			[
+				"alert",
+				"alertstars"
+			],
+			[
+				"ex",
+				"exports"
+			],
+			[
+				"cont",
+				"contactform"
+			],
+			[
+				"imag",
+				"imagemin"
+			],
+			[
+				"gul",
+				"gulpt	gulp.task('name',funciton)"
+			],
+			[
+				"gu",
+				"gulpt	gulp.task('name',funciton)"
+			],
+			[
+				"out",
+				"outputDir"
+			],
+			[
+				"ou",
+				"outputDir"
+			],
+			[
+				"sas",
+				"sassSources"
+			],
+			[
+				"js",
+				"jsSources"
+			],
+			[
+				"bower",
+				"bower_components"
+			],
+			[
+				"builds",
+				"builds/development"
+			],
+			[
+				"g",
+				"gulps	gulp.src('folder')"
+			],
+			[
+				"gulp",
+				"gulpd	gulp.dest('folder')"
+			],
+			[
+				"ru",
+				"rustyApp"
+			],
+			[
+				"ac",
+				"active"
+			],
+			[
+				"route",
+				"routeProvider"
+			],
+			[
+				"pr",
+				"production"
+			],
+			[
+				"max",
+				"max-height:   (property)"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"z-",
+				"z-index:   (property)"
+			],
+			[
+				"op",
+				"opacity	opacity()"
+			],
+			[
+				"backgro",
+				"background-color:   (property)"
+			],
+			[
+				"use",
+				"usemin"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"height",
+				"height:auto"
+			],
+			[
+				"footer",
+				"footerPush"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"padding-",
+				"padding-bottom:   (property)"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"visi",
+				"visible"
+			],
+			[
+				"zi",
+				"z-index:   (property)"
+			],
+			[
+				"head",
+				"header"
+			],
+			[
+				"overflow-",
+				"overflow-x:   (property)"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"list-st",
+				"list-style-type:   (property)"
+			],
+			[
+				"list",
+				"list:n	list-style-type:none"
+			],
+			[
+				"position",
+				"position:relative"
+			],
+			[
+				"margin-",
+				"margin-top:   (property)"
+			],
+			[
+				"top",
+				"topNav"
+			],
+			[
+				"nav",
+				"navBottom"
+			],
+			[
+				"foot",
+				"footerBackground"
+			],
+			[
+				"con",
+				"container"
+			],
+			[
+				"j",
+				"jPanelMenu"
+			],
+			[
+				"re",
+				"ready	document.ready - $(function()"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"z-i",
+				"z-index"
+			],
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"foc",
+				"focus"
+			],
+			[
+				"text",
+				"text-align:   (property)"
+			],
+			[
+				"myWork",
+				"myWorkParagraph"
+			],
+			[
+				"stop",
+				"stopPropagation"
+			],
+			[
+				"photo",
+				"photoSwipe"
+			],
+			[
+				"read",
+				"ready	$(document).ready"
+			],
+			[
+				"engag",
+				"engagements"
+			],
+			[
+				"eng",
+				"engagementContent"
+			],
+			[
+				"row",
+				"row2"
+			],
+			[
+				"galler",
+				"galleryContainer"
+			],
+			[
+				"va",
+				"validetta"
+			],
+			[
+				"preve",
+				"preventDefault"
+			],
+			[
+				"su",
+				"submit	submit"
+			],
+			[
+				"responsi",
+				"responsiveNav"
+			],
+			[
+				"social",
+				"socialMenu"
+			],
+			[
+				"face",
+				"facebook"
+			],
+			[
+				"bol",
+				"bold"
+			],
+			[
+				"bind",
+				"bind	jQuery"
+			],
+			[
+				"c",
+				"click	click"
+			],
+			[
+				"rea",
+				"ready	$(document).ready"
+			],
+			[
+				"wedding",
+				"wedding_page"
+			],
+			[
+				"scrollUp",
+				"scrollUpRefresh"
+			],
+			[
+				"git",
+				"git-completion"
+			],
+			[
+				"poi",
+				"position"
+			],
+			[
+				"max-e",
+				"max-width:   (property)"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "_myStyles.scss",
+			"settings":
+			{
+				"buffer_size": 10017,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/antonioortiz/Sites/antonioortiz.github.io_2/src/_includes/head.html",
+			"settings":
+			{
+				"buffer_size": 4376,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "style.scss",
+			"settings":
+			{
+				"buffer_size": 326,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/antonioortiz/Sites/antonioortiz.github.io_2/src/_layouts/default.html",
+			"settings":
+			{
+				"buffer_size": 2129,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "poole.scss",
+			"settings":
+			{
+				"buffer_size": 6390,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lanyon.scss",
+			"settings":
+			{
+				"buffer_size": 10464,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/User/firefox-preview.sublime-build",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"file",
+				"File: Copy Path From Project"
+			],
+			[
+				"pac",
+				"Package Control: List Packages"
+			],
+			[
+				"read",
+				"ReadmePlease"
+			],
+			[
+				"f",
+				"File: Copy as Tag script"
+			],
+			[
+				"bower",
+				"Bower: Install"
+			],
+			[
+				"hip",
+				"Hipster Ipsum: Occupy"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"hi",
+				"Hipster Ipsum: Occupy"
+			],
+			[
+				"file copy",
+				"File: Copy as Tag script"
+			],
+			[
+				"Install",
+				"Bower: Install"
+			],
+			[
+				"htm",
+				"HTMLPrettify"
+			],
+			[
+				"css",
+				"Tidy CSS"
+			],
+			[
+				"set syntax: css",
+				"Set Syntax: CSS"
+			],
+			[
+				"ht",
+				"Tidy HTML"
+			],
+			[
+				"hips",
+				"Hipster Ipsum: Occupy"
+			],
+			[
+				"set syntax",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"set syntax:ph",
+				"Set Syntax: PHP"
+			],
+			[
+				"set",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"cs",
+				"Tidy CSS (Low Compression)"
+			],
+			[
+				"t",
+				"Tidy CSS (Low Compression)"
+			],
+			[
+				"c",
+				"Tidy CSS"
+			],
+			[
+				"tid",
+				"Tidy CSS"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pc",
+				"Package Control: Install Package"
+			],
+			[
+				"sft",
+				"SFTP: Browse Server…"
+			],
+			[
+				"sfr",
+				"SFTP: Browse Server…"
+			],
+			[
+				"se",
+				"SFTP: Edit Server…"
+			],
+			[
+				"re",
+				"ReadmePlease"
+			],
+			[
+				"confli",
+				"FindKeyConflicts: All Conflicts"
+			],
+			[
+				"rea",
+				"ReadmePlease"
+			],
+			[
+				"Packa",
+				"Package Control: Install Package"
+			],
+			[
+				"pacs",
+				"Package Control: Install Package"
+			],
+			[
+				"p",
+				"Package Control: List Packages"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"tidy",
+				"Tidy CSS"
+			],
+			[
+				"ti",
+				"Tidy CSS"
+			],
+			[
+				"td",
+				"Tidy CSS"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"encode",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"enc",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"html",
+				"HTML Export: Current File"
+			],
+			[
+				"encod",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"syt",
+				"Set Syntax: CSS"
+			],
+			[
+				"s",
+				"Set Syntax: HTML5"
+			],
+			[
+				"oac",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ht",
+				"Snippet: html5Snippet"
+			],
+			[
+				"pre",
+				"Preferences: Settings - User"
+			],
+			[
+				"pca",
+				"Package Control: Upgrade Package"
+			]
+		],
+		"width": 574.0
+	},
+	"console":
+	{
+		"height": 54.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/antonioortiz/Sites/antonioortiz.github.io_2/src/about.md",
+		"/Users/antonioortiz/Sites/antonioortiz.github.io_2/src/index.html",
+		"/Users/antonioortiz/Sites/antonioortiz.github.io_2/src/_includes/sidebar.html",
+		"/Users/antonioortiz/Sites/antonioortiz.github.io/src/_layouts/alt_default.html",
+		"/Users/antonioortiz/Sites/antonioortiz.github.io/src/assets/javascript/bootstrap.js",
+		"/Users/antonioortiz/Sites/antonioortiz.github.io/src/_includes/head.html",
+		"/Users/antonioortiz/Sites/antonioortiz.github.io/src/_layouts/hero.html",
+		"/Users/antonioortiz/Sites/antonioortiz.github.io/src/about.md",
+		"/Users/antonioortiz/Sites/antonioortiz.github.io/_config.yml",
+		"/Users/antonioortiz/Sites/antonioortiz.github.io/src/_includes/sidebar.html",
+		"/Users/antonioortiz/Sites/antonioortiz.github.io/src/_posts/2014-03-28-my-proto-post.md",
+		"/Users/antonioortiz/Sites/antonioortiz.github.io/src/_posts/2014-03-03-welcome-to-jekyll.md",
+		"/Users/antonioortiz/Sites/antonioortiz.github.io/src/_posts/2014-03-02-introducing-poole.md",
+		"/Users/antonioortiz/Sites/antonioortiz.github.io/src/_layouts/page.html",
+		"/Users/antonioortiz/Sites/antonioortiz.github.io/src/_layouts/post.html",
+		"/Users/antonioortiz/Sites/antonioortiz.github.io/src/_includes/hero.html",
+		"/Users/antonioortiz/Sites/antonioortiz.github.io/src/_includes/comments.html",
+		"/Users/antonioortiz/Sites/antonioortiz.github.io/src/assets/scss/lanyon.scss",
+		"/Users/antonioortiz/Sites/antonioortiz.github.io/src/assets/scss/_site.scss",
+		"/Users/antonioortiz/Sites/antonioortiz.github.io/src/assets/scss/_myStyles.scss",
+		"/Users/antonioortiz/Sites/sandbox.dev/mirophotography/oldFiles/preMinified_html/index.php",
+		"/Users/antonioortiz/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/antonioortiz/Sites/antonioortiz.github.io/src/work.html",
+		"/Users/antonioortiz/Sites/sandbox.dev/mirophotography/index.php",
+		"/Users/antonioortiz/Sites/antonioortiz.github.io/src/_includes/carousel.html",
+		"/Users/antonioortiz/Dropbox/developer_folder/dynamicQuiz/js/script.js",
+		"/Users/antonioortiz/Library/Application Support/Sublime Text 2/Packages/Seti_UX/README.md",
+		"/Users/antonioortiz/Sites/antonioortiz.github.io/gulpfile.js",
+		"/Users/antonioortiz/Sites/antonioortiz.github.io/src/_layouts/default.html",
+		"/Users/antonioortiz/Sites/antonioortiz.github.io/src/assets/scss/style.scss",
+		"/Users/antonioortiz/Sites/antonioortiz.github.io/src/assets/scss/vendor/scrollUp/labs.scss",
+		"/Users/antonioortiz/Sites/antonioortiz.github.io/src/assets/scss/syntax.scss",
+		"/Users/antonioortiz/Sites/antonioortiz.github.io/src/assets/scss/vendor/_carousel.scss",
+		"/Users/antonioortiz/Sites/antonioortiz.github.io/src/assets/scss/vendor/scrollUp/themes/tab.scss",
+		"/Users/antonioortiz/Sites/antonioortiz.github.io/src/assets/scss/vendor/fancyBox/_jquery.fancybox.scss",
+		"/Users/antonioortiz/Sites/antonioortiz.github.io/src/index.html",
+		"/Users/antonioortiz/Sites/antonioortiz.github.io/src/assets/javascript/fastclick.js",
+		"/Users/antonioortiz/Sites/antonioortiz.github.io/.bowerrc",
+		"/Users/antonioortiz/Sites/antonioortiz.github.io/serve/work/index.html",
+		"/Users/antonioortiz/Sites/antonioortiz.github.io/site/index.html",
+		"/Users/antonioortiz/Sites/antonioortiz.github.io/src/assets/javascript/responsive-elements.js",
+		"/Users/antonioortiz/Sites/antonioortiz.github.io/src/assets/scss/vendor/jBox/_jBox.scss",
+		"/Users/antonioortiz/Sites/antonioortiz.github.io/src/assets/scss/poole.scss",
+		"/Users/antonioortiz/Sites/antonioortiz.github.io/src/assets/scss/_typography.scss",
+		"/Users/antonioortiz/Sites/antonioortiz.github.io/src/assets/scss/vendor/jBox/themes/_TooltipDark.scss",
+		"/Users/antonioortiz/Sites/antonioortiz.github.io/src/work.md",
+		"/Users/antonioortiz/Sites/antonioortiz.github.io/src/_layouts/page_2.html",
+		"/Users/antonioortiz/Sites/antonioortiz.github.io/src/_layouts/work.html",
+		"/Users/antonioortiz/Sites/antonioortiz.github.io/src/_includes/work.html",
+		"/Users/antonioortiz/Sites/antonioortiz.github.io/site/assets/javascript/all.min.684d34b5.js",
+		"/Users/antonioortiz/Sites/antonioortiz.github.io/site/CNAME",
+		"/Users/antonioortiz/Sites/mirophotography/sass/style.scss",
+		"/Users/antonioortiz/Sites/antonioortiz.github.io/src/assets/scss/vendor/skeleton/skeleton.scss",
+		"/Users/antonioortiz/Sites/antonioortiz.github.io/serve/assets/scss/lanyon.scss",
+		"/Users/antonioortiz/Sites/antonioortiz.github.io/serve/assets/scss/poole.scss",
+		"/Users/antonioortiz/Sites/antonioortiz.github.io/serve/index.html",
+		"/Users/antonioortiz/Sites/antonioortiz.github.io/src/_oldFiles/__work.html",
+		"/Users/antonioortiz/Sites/antonioortiz.github.io/src/_oldFiles/_work.html",
+		"/Users/antonioortiz/Sites/antonioortiz.github.io/src/assets/scss/vendor/uikit/uikit.scss",
+		"/Users/antonioortiz/Sites/antonioortiz.github.io/src/assets/javascript/jquery.js",
+		"/Users/antonioortiz/Sites/antonioortiz.github.io/serve/jekyll/2014/03/03/welcome-to-jekyll/index.html",
+		"/Users/antonioortiz/Sites/antonioortiz.github.io/src/assets/scss/uikit/uikit.scss",
+		"/Users/antonioortiz/Sites/antonioortiz.github.io/src/_layouts/work_container.html",
+		"/Users/antonioortiz/Sites/antonioortiz.github.io/src/assets/scss/uikit/core/base.scss",
+		"/Users/antonioortiz/Sites/antonioortiz.github.io/src/assets/javascript/jqueryFunctionToggle.js",
+		"/Users/antonioortiz/Sites/antonioortiz.github.io/src/assets/scss/headhesive/_headhesive.scss",
+		"/Users/antonioortiz/Sites/antonioortiz.github.io/src/assets/javascript/headhesive.js",
+		"/Users/antonioortiz/Sites/antonioortiz.github.io/src/CNAME",
+		"/Users/antonioortiz/Sites/antonioortiz.github.io/src/assets/javascript/jquery.easing.js",
+		"/Users/antonioortiz/Sites/antonioortiz.github.io/src/assets/javascript/smoothStateFunc.js",
+		"/Users/antonioortiz/Sites/antonioortiz.github.io/src/assets/javascript/jquery.stickyhead.js",
+		"/Users/antonioortiz/Sites/antonioortiz.github.io/serve/assets/javascript/jqueryEasing.js",
+		"/Users/antonioortiz/Sites/antonioortiz.github.io/src/_layouts/default (original).html",
+		"/Users/antonioortiz/Sites/antonioortiz.github.io/src/assets/scss/_carousel.scss",
+		"/Users/antonioortiz/Sites/antonioOrtiz.github.io/antonioOrtiz.github.sublime-project",
+		"/Users/antonioortiz/Sites/ant_blog/_config.yml",
+		"/Users/antonioortiz/Sites/ant_blog/src/_includes/sidebar.html",
+		"/Users/antonioortiz/Sites/ant_blog/serve/about/index.html",
+		"/Users/antonioortiz/Library/Application Support/Sublime Text 2/Packages/MarkdownEditing/README.md",
+		"/Users/antonioortiz/Sites/ant_blog/src/assets/scss/poole.scss",
+		"/Users/antonioortiz/Sites/ant_blog/src/assets/scss/lanyon.scss",
+		"/Users/antonioortiz/Sites/ant_blog/src/assets/scss/headhesive/_headhesive.scss",
+		"/Users/antonioortiz/Sites/ant_blog/src/assets/scss/style.scss",
+		"/Users/antonioortiz/Sites/ant_blog/src/assets/scss/_myStyles.scss",
+		"/Users/antonioortiz/Sites/ant_blog/src/assets/javascript/jqueryFunctionToggle.js",
+		"/Users/antonioortiz/Sites/ant_blog/src/_includes/head.html",
+		"/Users/antonioortiz/Sites/ant_blog/README.md",
+		"/Users/antonioortiz/Sites/ant_blog/gulpfile.js",
+		"/Users/antonioortiz/Sites/ant_blog/src/_layouts/page.html",
+		"/Users/antonioortiz/Sites/ant_blog/src/_layouts/default.html",
+		"/Users/antonioortiz/Sites/ant_blog/src/_posts/2014-03-03-welcome-to-jekyll.md",
+		"/Users/antonioortiz/Sites/ant_blog/src/assets/javascript/headhesive.js",
+		"/Users/antonioortiz/Sites/ant_blog/src/assets/scss/_carousel.scss",
+		"/Users/antonioortiz/Sites/ant_blog/src/assets/javascript/somejavascript.js",
+		"/Users/antonioortiz/Sites/ant_blog/src/assets/javascript/javascript.js",
+		"/Users/antonioortiz/Sites/ant_blog/src/_includes/carousel.html",
+		"/Users/antonioortiz/Sites/ant_blog/src/_layouts/post.html",
+		"/Users/antonioortiz/Sites/ant_blog/src/_drafts/2014-03-01-example-content.md",
+		"/Users/antonioortiz/Sites/ant_blog/src/_layouts/alt_default.html",
+		"/Users/antonioortiz/Sites/ant_blog/src/assets/scss/_iphone6.scss",
+		"/Users/antonioortiz/Sites/ant_blog/src/assets/scss/@media only screen.scss",
+		"/Users/antonioortiz/Sites/rusty-stark-website/server/server.js"
+	],
+	"find":
+	{
+		"height": 72.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"<open files>",
+			"<open files>,*.txt,/Users/antonioortiz/Sites/antonioortiz.github.io",
+			"<open files>",
+			"",
+			"<open files>,/Users/antonioortiz/Sites/rustyWebSite.dev_/builds/development/bower_components",
+			"<open files>",
+			"",
+			"<open files>",
+			"",
+			"<open files",
+			"",
+			"<open files>",
+			"",
+			"<open files>",
+			"",
+			"<open files>",
+			"",
+			"images",
+			"",
+			"images",
+			"",
+			"/Users/antonioortiz/Sites/newaortiz.dev/mysite",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"container",
+			".theme-base-0f ",
+			".theme-base-0f .sidebar",
+			"theme",
+			".sidebar-toggle",
+			"fixed",
+			"masthead",
+			"task",
+			";",
+			"u-max-full-width",
+			"fancybox",
+			".container .mix:before {\n",
+			"  content: '';\n  display: inline-block;\n  /* padding-top: 60%; */ }\n",
+			".container .mix",
+			"/assets",
+			"2px",
+			"raleway",
+			".miro_page",
+			"containerL",
+			"L",
+			"containerL",
+			"containerL",
+			"containerL",
+			"logoContainer",
+			"crestLogo",
+			"768",
+			"414",
+			"max",
+			"height=\"175\"",
+			"logo",
+			"class=\"logo\"",
+			"crest_1224",
+			"1",
+			"zip",
+			"../images",
+			"google",
+			"{{ site.baseurl }}",
+			"RWD",
+			"500x500",
+			"{{ site.baseurl }}",
+			"class=\"u-max-full-width \"",
+			"imgRWD",
+			"class=\"\" ",
+			"imgRWD",
+			"class=\"\" ",
+			"/image1_large.jpg",
+			"#Container",
+			"overflow:",
+			"-->",
+			"antialiased",
+			"webfonts",
+			"center",
+			"foo",
+			"TK421",
+			"    $",
+			"$",
+			"#Container .mix{\n	display: none;\n}",
+			".container",
+			"container",
+			".container",
+			"value",
+			"mixin",
+			"\"data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNi4wLjQsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkViZW5lXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB3aWR0aD0iNjAwcHgiIGhlaWdodD0iNDAwcHgiIHZpZXdCb3g9IjAgMCA2MDAgNDAwIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA2MDAgNDAwIiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxyZWN0IGZpbGw9IiNGNUY1RjUiIHdpZHRoPSI2MDAiIGhlaWdodD0iNDAwIi8+DQo8ZyBvcGFjaXR5PSIwLjciPg0KCTxwYXRoIGZpbGw9IiNEOEQ4RDgiIGQ9Ik0yMjguMTg0LDE0My41djExM2gxNDMuNjMydi0xMTNIMjI4LjE4NHogTTM2MC4yNDQsMjQ0LjI0N0gyNDAuNDM3di04OC40OTRoMTE5LjgwOEwzNjAuMjQ0LDI0NC4yNDcNCgkJTDM2MC4yNDQsMjQ0LjI0N3oiLz4NCgk8cG9seWdvbiBmaWxsPSIjRDhEOEQ4IiBwb2ludHM9IjI0Ni44ODEsMjM0LjcxNyAyNzEuNTcyLDIwOC43NjQgMjgwLjgyNCwyMTIuNzY4IDMxMC4wMTYsMTgxLjY4OCAzMjEuNTA1LDE5NS40MzQgDQoJCTMyNi42ODksMTkyLjMwMyAzNTQuNzQ2LDIzNC43MTcgCSIvPg0KCTxjaXJjbGUgZmlsbD0iI0Q4RDhEOCIgY3g9IjI3NS40MDUiIGN5PSIxNzguMjU3IiByPSIxMC43ODciLz4NCjwvZz4NCjwvc3ZnPg0K\"",
+			" </div>\n    <!-- container -->",
+			"       <div class=\"container\">\n",
+			"em",
+			"Custom type",
+			"width=\"500px\" height=\"500px\"",
+			"  <li>",
+			"                    </li>\n",
+			"workImages",
+			"value",
+			"350",
+			"four columns",
+			"u-max-full-width",
+			"../../../images/placeholder.png",
+			"data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNi4wLjQsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkViZW5lXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB3aWR0aD0iNjAwcHgiIGhlaWdodD0iNDAwcHgiIHZpZXdCb3g9IjAgMCA2MDAgNDAwIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA2MDAgNDAwIiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxyZWN0IGZpbGw9IiNGNUY1RjUiIHdpZHRoPSI2MDAiIGhlaWdodD0iNDAwIi8+DQo8ZyBvcGFjaXR5PSIwLjciPg0KCTxwYXRoIGZpbGw9IiNEOEQ4RDgiIGQ9Ik0yMjguMTg0LDE0My41djExM2gxNDMuNjMydi0xMTNIMjI4LjE4NHogTTM2MC4yNDQsMjQ0LjI0N0gyNDAuNDM3di04OC40OTRoMTE5LjgwOEwzNjAuMjQ0LDI0NC4yNDcNCgkJTDM2MC4yNDQsMjQ0LjI0N3oiLz4NCgk8cG9seWdvbiBmaWxsPSIjRDhEOEQ4IiBwb2ludHM9IjI0Ni44ODEsMjM0LjcxNyAyNzEuNTcyLDIwOC43NjQgMjgwLjgyNCwyMTIuNzY4IDMxMC4wMTYsMTgxLjY4OCAzMjEuNTA1LDE5NS40MzQgDQoJCTMyNi42ODksMTkyLjMwMyAzNTQuNzQ2LDIzNC43MTcgCSIvPg0KCTxjaXJjbGUgZmlsbD0iI0Q4RDhEOCIgY3g9IjI3NS40MDUiIGN5PSIxNzguMjU3IiByPSIxMC43ODciLz4NCjwvZz4NCjwvc3ZnPg0K",
+			"width=\"500px\" height=\"500px\"",
+			"        <div class=\"imageWrapper\">\n",
+			"<div class=\"imageContainer\">",
+			"width=\"600\" height=\"400\"",
+			"One",
+			"checkbox",
+			"About me",
+			"header",
+			"webfonts",
+			"Gemfile",
+			"max-height:",
+			"height: auto;",
+			"about",
+			"Just a blog about the dev world.",
+			"masthead",
+			"#main-nav:target",
+			"banner",
+			"border-radius",
+			"<hr>",
+			"enter center; background-size:cover;",
+			" background-size:cover;",
+			"(../assets/images/sliderContent/antBlogSliderImage_1.png)",
+			"path/image.jpg",
+			" class=\"slider-size\"",
+			"../../",
+			"</div>",
+			"!important",
+			"pagination",
+			"style=\"height:100%\"",
+			"lt=\"...\"",
+			"document.getElementById(\"join\")",
+			"optionList",
+			"intervaleHandle",
+			"barb",
+			"document.getElementById('barb')",
+			"mainContent",
+			"getElementById",
+			"barb",
+			"myNewH1",
+			"this",
+			"i",
+			"0.3s",
+			"ul.uk-navbar-nav {\n  margin-top: 10px;\n}\n\n.uk-navbar {",
+			".uk-navbar {\n  height: 60px;",
+			".uk-navbar",
+			".uk-navbar.top-bar.show-for-medium-up",
+			".uk-navbar .top-bar .show-for-medium-up",
+			"uk-navbar top-bar show-for-medium-up",
+			".uk-thumbnail",
+			"uk-thumbnail",
+			".flimFlam"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"containerL",
+			"containerL",
+			".containerL",
+			"fonts",
+			"fontawesome/fonts",
+			"return gulp.src",
+			"../fonts",
+			"<a href=\"portfolio.html\">portfolio</a>\n",
+			"index.html",
+			"index",
+			"",
+			"../../../fonts",
+			"/",
+			"",
+			"jPM",
+			"'../../fonts/2AC78D",
+			"letter-spacing: 1px;",
+			"style.css",
+			"../images",
+			"blog.php",
+			"my_work.php",
+			"blog.php",
+			"blog/blog.html",
+			"",
+			"touche.min.js",
+			"myButtons",
+			"../fonts",
+			"nonRetinaSpriteImages-s5e06616baa.png",
+			"christeningImages",
+			"weddingImages",
+			"_bb",
+			"$",
+			"jjq.",
+			"<p class=\"coreParagraph\">",
+			"'../fonts/",
+			"'../",
+			"'../../",
+			"'../../fonts/",
+			"../../fonts/",
+			"../../fonts",
+			"'../fonts/",
+			"'../",
+			"'../../",
+			"../../../",
+			"../",
+			"../../fonts/",
+			"",
+			"@include typography(\"Brandon-Grotesque\",\"Brandon-Grotesque\");",
+			"@include typography(\"Brandon-Grotesque\");",
+			"../../",
+			"fonts",
+			"nonRetinaSpriteImages-s36282bfa87.png",
+			".nonRetinaSpriteImages-sprite",
+			"galleryImages",
+			"images",
+			"/",
+			"_images/_sliderContent",
+			"_sliderContent"
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "_myStyles.scss",
+					"settings":
+					{
+						"buffer_size": 10017,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10017,
+								10017
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 7132.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/antonioortiz/Sites/antonioortiz.github.io_2/src/_includes/head.html",
+					"settings":
+					{
+						"buffer_size": 4376,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3291,
+								3291
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_complete": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "style.scss",
+					"settings":
+					{
+						"buffer_size": 326,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								96,
+								2
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/antonioortiz/Sites/antonioortiz.github.io_2/src/_layouts/default.html",
+					"settings":
+					{
+						"buffer_size": 2129,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2113,
+								2113
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_complete": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "poole.scss",
+					"settings":
+					{
+						"buffer_size": 6390,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								554,
+								559
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2939.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "lanyon.scss",
+					"settings":
+					{
+						"buffer_size": 10464,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10373,
+								10373
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 6531.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 36.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 27.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 454.0
+	},
+	"replace":
+	{
+		"height": 93.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"builds/development/partials/contact.html"
+			],
+			[
+				"_layo",
+				"app/sass/partials/_layout.scss"
+			],
+			[
+				"rea",
+				"Abban-jQuery-Picture-ca37fbc/README.md"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/antonio/Sites/mobileaortiz.dev/AortizMobile.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 227.0,
+	"status_bar_visible": true
+}

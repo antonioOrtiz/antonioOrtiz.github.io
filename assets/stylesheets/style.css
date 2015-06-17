@@ -3449,6 +3449,13 @@ p {
   padding: 0px;
   color: #515151 !important; }
 
+.workContainer {
+  margin-top: -30px !important; }
+
+.row20 {
+  width: 100%;
+  height: 20px; }
+
 a:hover {
   color: #E2681E; }
 
@@ -3626,9 +3633,6 @@ hr {
 * {
   box-sizing: border-box; }
 
-body, button {
-  font-family: 'Helvetica Neue', arial, sans-serif; }
-
 label {
   font-weight: 300;
   margin: 0; }
@@ -3779,6 +3783,12 @@ button {
   .filterLeft {
     font-size: 15px; } }
 
+@media screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
+  #mirosite {
+    background-position: 0px -27px;
+    background-image: url('../images/mirocelic_site.png');
+    background-size: cover; } }
+
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
   #mirosite {
     background-position: 0px -25px;
@@ -3789,13 +3799,6 @@ button {
 @media all and (min-width: 640px) {
   .container .mix, .container .gap {
     width: 23.5%; } }
-
-.fancybox-skin {
-  padding-bottom: 3px !important;
-  padding-left: 3px !important;
-  padding-right: 3px !important;
-  margin-right: 3px !important;
-  padding-top: 3px !important; }
 
 .outerDiv {
   margin: -20px auto; }
@@ -3819,9 +3822,8 @@ button {
   color: blue !important; }
 
 .portfolioEx {
-  min-width: 320px;
   height: 100%;
-  width: 70%;
+  width: 100%;
   margin: 0 auto;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   border-radius: 3px; }

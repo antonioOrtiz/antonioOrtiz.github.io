@@ -4,7 +4,7 @@
  <title>antonio's blog</title>
  <link href="antonioortiz.github.io/atom.xml" rel="self"/>
  <link href="antonioortiz.github.io/"/>
- <updated>2015-06-17T06:20:29-04:00</updated>
+ <updated>2015-06-22T20:02:06-04:00</updated>
  <id>antonioortiz.github.io</id>
  <author>
    <name>antonio</name>
@@ -28,7 +28,7 @@
    <link href="antonioortiz.github.io/jekyll/2014/03/03/welcome-to-jekyll/"/>
    <updated>2014-03-03T00:00:00-05:00</updated>
    <id>antonioortiz.github.io/jekyll/2014/03/03/welcome-to-jekyll</id>
-   <content type="html">&lt;p&gt;You&amp;rsquo;ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory - edit this post and re-build
+   <content type="html">&lt;p&gt;ou&amp;rsquo;ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory - edit this post and re-build
 (or run with the &lt;code&gt;-w&lt;/code&gt; switch) to see your changes! To add new posts, simply add
 a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention:
 YYYY-MM-DD-name-of-post.ext.&lt;/p&gt;

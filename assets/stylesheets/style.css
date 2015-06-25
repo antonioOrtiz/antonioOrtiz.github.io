@@ -3624,6 +3624,16 @@ p {
 #scrollUp-active {
   display: none; }
 
+/* jekyll specfic classes */
+.post-date {
+  display: inline-block;
+  margin-left: 2%; }
+
+.author-name {
+  color: #8f5536 !important;
+  font-size: 1.6rem;
+  font-family: 'BrandonGrotesque-Medium', Helvetica, sans-serif; }
+
 /* Site styles */
 body {
   background: #fdf0d5 !important;

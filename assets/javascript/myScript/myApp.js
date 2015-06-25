@@ -3,7 +3,7 @@ var j = jQuery.noConflict();
 j(document).ready(function() {
     function openFancybox() {
           setTimeout(function () {
-            j("#clickbanner").trigger('click');
+            j("#banner").trigger('click');
                 }, 500);
 
     };
@@ -15,10 +15,10 @@ j(document).ready(function() {
         openFancybox();
     };
     j.cookie('visited', 'yes', {
-        expires: 7 
+        expires: 7
     });
 
-    j("#clickbanner").click(function() {
+    j("#banner").click(function() {
         j.fancybox({
           href: this.href,
             type: "image",

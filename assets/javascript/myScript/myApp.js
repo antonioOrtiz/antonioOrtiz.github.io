@@ -14,9 +14,9 @@ j(document).ready(function() {
     } else {
         openFancybox();
     };
-    j.cookie('visited', 'yes', {
-        expires: 7
-    });
+    // j.cookie('visited', 'yes', {
+    //     expires: 7
+    // });
 
     j("#banner").click(function() {
         j.fancybox({

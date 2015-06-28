@@ -24,44 +24,43 @@
         }, false);
     }
     </script>
-    <script type="text/javascript" src="/assets/javascript/jquery-1.9.1.min.js"></script> 
+    <script type="text/javascript" src="/assets/javascript/jquery-1.9.1.min.js"></script>
     <script type="text/javascript" src="/assets/javascript/jquery.cookie.js"></script>
     <script type="text/javascript" src="/assets/javascript/jquery.fancybox.pack.js"></script>
     <script type="text/javascript" src="/assets/javascript/jquery.fancybox-media.js"></script>
     <script type="text/javascript" src="/assets/javascript/ya_jquery.fancybox.ready.function.js"></script>
-    <!-- <script type="text/javascript" src="/assets/javascript/cookie_example.js"></script> -->
-    <script type="text/javascript">
-    jQuery(function($) {
 
-        function openFancybox() {
-            // launches fancybox after half second when called
-            setTimeout(function() {
-                $('#banner').trigger('click');
-            }, 500);
-        };
-        var visited = $.cookie('visited'); // create the cookie
-        if (visited == 'yes') {
-            return false; // second page load, cookie is active so do nothing
-        } else {
-            openFancybox(); // first page load, launch fancybox
-        };
-        // assign cookie's value and expiration time
-        $.cookie('visited', 'yes', {
-            expires: 1 // the number of days the cookie will be effective
-        });
-        // your normal fancybox script
-        $("#banner").click(function() {
-            // your fancybox API options
-            $.fancybox({
-                href: this.href,
-                type: "image",
-                maxWidth: 750,
-                maxHeight: 502
-            });
+    <script type="text/javascript">
+    var j = jQuery.noConflict();
+
+    j(document).ready(function() {
+    function openFancybox() {
+          setTimeout(function () {
+            j("#clickbanner").trigger('click');
+                }, 500);
+
+    };
+
+    var visited = j.cookie('visited');
+    if (visited == 'yes') {
+        return false;
+    } else {
+        openFancybox();
+    };
+    j.cookie('visited', 'yes', {
+        expires: 1
+    });
+
+    j("#clickbanner").click(function() {
+        j.fancybox({
+          href: this.href,
+            type: "image",
+            maxWidth: 750,
+            maxHeight: 502
         });
         return false;
-
     });
+});
     </script>
     <script>
     // Picture element HTML5 shiv

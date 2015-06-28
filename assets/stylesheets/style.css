@@ -3739,7 +3739,7 @@ a:hover {
   position: absolute;
   margin-top: 35px;
   left: 38%;
-  font-size: 22px;
+  font-size: 26px;
   border-bottom: none;
   color: #E39A29 !important;
   text-shadow: 1px 2px 0 rgba(0, 0, 0, 0.9); }
@@ -3823,6 +3823,10 @@ hr {
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.5, #dddddd), color-stop(0.5, #ffffff));
   background-image: -moz-linear-gradient(center top, #dddddd 50%, #ffffff 50%); }
 
+@media (max-width: 399px) {
+  .title {
+    font-size: 22px; } }
+
 @media (max-width: 420px) {
   .sidebar-toggle {
     margin-top: 6px; }
@@ -3835,8 +3839,6 @@ hr {
   .crestLogo {
     margin-top: -47px; }
   .title {
-    margin-top: 40px;
-    left: 38%;
     font-size: 28px; } }
 
 @media (min-width: 480px) {

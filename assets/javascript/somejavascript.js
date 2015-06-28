@@ -1,7 +1,7 @@
- var foo = $.noConflict();
-    foo(document).ready(function() {
-        foo('#Container').mixItUp();
-        foo.scrollUp({
+    jQuery(function($) {
+
+        $('#Container').mixItUp();
+        $.scrollUp({
             scrollName: 'scrollUp', // Element ID
             scrollDistance: 300, // Distance from top/bottom before showing element (px)
             scrollFrom: 'top', // 'top' or 'bottom'
@@ -17,16 +17,16 @@
             activeOverlay: false, // Set CSS color to display scrollUp active point, e.g '#00FFFF'
             zIndex: 8009 // Z-Index for the overlay
         });
-        foo('.resume').jBox('Tooltip', {
+        $('.resume').jBox('Tooltip', {
             animation: 'pulse',
             theme: 'TooltipDark',
             closeOnClick: true
         });
-         foo('.miroLink').jBox('Tooltip', {
+        $('.miroLink').jBox('Tooltip', {
             animation: 'tada',
             theme: 'TooltipDark',
             closeOnClick: true
-           
+
         });
         new jBox('Image', {
             width: 500,
@@ -35,12 +35,12 @@
             animation: 'slide',
             addClass: 'jBoxID2'
         });
-             foo('body').flowtype({
-                minimum   : 420,
-                maximum   : 1000,
-                minFont   : 5,
-                maxFont   : 20,
-                fontRatio : 30
-            });
+        $('body').flowtype({
+            minimum: 420,
+            maximum: 1000,
+            minFont: 5,
+            maxFont: 20,
+            fontRatio: 30
+        });
 
     });

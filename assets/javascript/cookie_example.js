@@ -15,7 +15,8 @@ j(document).ready(function() {
         openFancybox();
     };
     j.cookie('visited', 'yes', {
-        expires: 1
+        expires: 1,
+        path:"/"
     });
 
     j("#banner").click(function() {

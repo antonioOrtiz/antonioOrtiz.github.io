@@ -3624,7 +3624,50 @@ p {
 #scrollUp-active {
   display: none; }
 
-/* jekyll specfic classes */
+/* jekyll reset by me
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+@media screen and (min-color-index: 0) and (-webkit-min-device-pixel-ratio: 0) {
+  @media  {
+    .sidebar-toggle {
+      position: absolute;
+      top: 1rem;
+      left: 1rem;
+      display: block;
+      width: 2.2rem !important;
+      padding: .5rem .65rem;
+      color: #8f5536;
+      background-color: #fff;
+      border-radius: 4px;
+      cursor: pointer; }
+    .sidebar-toggle:before {
+      border-top-width: 0.4rem; }
+    .sidebar-toggle:before {
+      padding-top: -.05rem;
+      padding-bottom: .1rem;
+      border-top-width: 0.4rem;
+      border-bottom-width: .15rem; } } }
+
+@media (min-width: 30.1rem) {
+  .sidebar-toggle:before {
+    border-top-width: 0.4rem; } }
+
+@media (min-width: 30.1rem) {
+  .sidebar-toggle {
+    position: fixed;
+    width: 2.25rem; } }
+
+.sidebar-toggle {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  display: block;
+  width: 2.2rem !important;
+  padding: .5rem .65rem;
+  color: #8f5536;
+  background-color: #fff;
+  border-radius: 4px;
+  cursor: pointer; }
+
 .post-date {
   display: inline-block;
   margin-left: 2%; }
@@ -3634,7 +3677,8 @@ p {
   font-size: 1.6rem;
   font-family: 'BrandonGrotesque-Medium', Helvetica, sans-serif; }
 
-/* Site styles */
+/* generalStyles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 body {
   background: #fdf0d5 !important;
   width: 100%;
@@ -3710,7 +3754,12 @@ a:hover {
   .crestLogo {
     margin-top: -47px;
     width: 100%;
-    border-radius: 0; } }
+    border-radius: 0; }
+  .sidebar-toggle:before {
+    padding-top: -.05rem;
+    padding-bottom: .09rem;
+    border-top-width: 0.4rem;
+    border-bottom-width: .15rem; } }
 
 .aortizHero {
   margin-top: -48px !important;
@@ -3734,6 +3783,8 @@ a:hover {
   left: 0;
   position: absolute !important; }
 
+/* sidebar
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 label.sidebar-toggle {
   z-index: 30000; }
 
@@ -3793,7 +3844,8 @@ hr {
     margin-top: 45px;
     left: 42%; } }
 
-/* phablet */
+/* phablet
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 @media (min-width: 561px) {
   .title {
     font-size: 35px; } }
@@ -3811,7 +3863,8 @@ hr {
   .bodyWrapper {
     padding-top: 118px; } }
 
-/* tablets */
+/* tablet
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 @media (max-width: 767px) {
   label.sidebar-toggle {
     z-index: 10000000 !important; } }
@@ -3825,7 +3878,8 @@ hr {
   label.sidebar-toggle {
     z-index: 10000000 !important; } }
 
-/* desktops */
+/* desktop
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 @media (min-width: 1120px) {
   .title {
     font-size: 62px; } }
@@ -3847,7 +3901,8 @@ hr {
   .title {
     font-size: 80px; } }
 
-/* my work */
+/* work page styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 .workImages {
   border: 4px solid #fff;
   border-radius: 4px;
@@ -3857,6 +3912,9 @@ hr {
   height: 100% !important;
   width: 100% !important;
   z-index: 0; }
+
+.workContainer {
+  margin-top: -30px !important; }
 
 * {
   box-sizing: border-box; }
@@ -4001,6 +4059,8 @@ button {
     background-size: 100%, cover;
     overflow: visible; } }
 
+/* iphone 5/5S
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 @media screen and (min-device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) {
   #mirosite {
     background-position: 0px 1px;
@@ -4011,6 +4071,8 @@ button {
   .filterLeft {
     font-size: 15px; } }
 
+/* iphone 6 plus
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 @media screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
   #mirosite {
     background-position: 0px -27px;

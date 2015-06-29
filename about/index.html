@@ -6,7 +6,7 @@
     <!-- Enable responsiveness on mobile devices-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
     <title>
-         about me &middot; antonio's blog 
+         About me &middot; antonio's blog 
     </title>
     <!-- CSS -->
     <!-- build:css /assets/stylesheets/style.min.css -->
@@ -29,38 +29,37 @@
     <script type="text/javascript" src="/assets/javascript/jquery.fancybox.pack.js"></script>
     <script type="text/javascript" src="/assets/javascript/jquery.fancybox-media.js"></script>
     <script type="text/javascript" src="/assets/javascript/ya_jquery.fancybox.ready.function.js"></script>
-
     <script type="text/javascript">
     var j = jQuery.noConflict();
 
     j(document).ready(function() {
-    function openFancybox() {
-          setTimeout(function () {
-            j("#clickbanner").trigger('click');
-                }, 500);
+        function openFancybox() {
+            setTimeout(function() {
+                j("#clickbanner").trigger('click');
+            }, 500);
 
-    };
+        };
 
-    var visited = j.cookie('visited');
-    if (visited == 'yes') {
-        return false;
-    } else {
-        openFancybox();
-    };
-    j.cookie('visited', 'yes', {
-        expires: 1
-    });
-
-    j("#clickbanner").click(function() {
-        j.fancybox({
-          href: this.href,
-            type: "image",
-            maxWidth: 750,
-            maxHeight: 502
+        var visited = j.cookie('visited');
+        if (visited == 'yes') {
+            return false;
+        } else {
+            openFancybox();
+        };
+        j.cookie('visited', 'yes', {
+            expires: 1
         });
-        return false;
+
+        j("#clickbanner").click(function() {
+            j.fancybox({
+                href: this.href,
+                type: "image",
+                maxWidth: 750,
+                maxHeight: 502
+            });
+            return false;
+        });
     });
-});
     </script>
     <script>
     // Picture element HTML5 shiv
@@ -122,12 +121,12 @@
 <!-- Toggleable sidebar -->
 <div class="sidebar" id="sidebar">
   <div class="sidebar-item">
-    <img class="pic_of_me" src="/assets/images/pic_of_me.jpg" alt="">
+    <img class="pic-of-me" src="/assets/images/pic_of_me.jpg" alt="">
     <p style="margin-top:40px; font-size: 13px">a blog about the dev world and stuff!</p>
   </div>
 
   <nav class="sidebar-nav">
-    <a class="sidebar-nav-item" href="/">home</a>
+    <a class="sidebar-nav-item" href="/">Home</a>
 
     
 
@@ -139,7 +138,7 @@
     
       
         
-          <a class="sidebar-nav-item active" href="/about/">about me</a>
+          <a class="sidebar-nav-item active" href="/about/">About me</a>
         
       
     
@@ -159,7 +158,11 @@
     
       
         
-          <a class="sidebar-nav-item" href="/work/">my work</a>
+          <a class="sidebar-nav-item" href="/work/">My work</a>
+        
+      
+    
+      
         
       
     
@@ -204,8 +207,8 @@
             <div class="containerL content">
                 <a id="showHere"></a>
                 <div class="page">
-  <h1 class="page-title">about me</h1>
-  <p><img class="pic_of_me" src="../assets/images/pic_of_me.jpg" alt=""></p>
+  <h1 class="page-title">About me</h1>
+  <p><img class="pic-of-me" src="../assets/images/pic_of_me.jpg" alt=""></p>
 
 <h2>Ahoy there, I am Antonio Pavicevac-Ortiz!</h2>
 

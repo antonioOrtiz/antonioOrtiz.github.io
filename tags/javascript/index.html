@@ -6,7 +6,7 @@
     <!-- Enable responsiveness on mobile devices-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
     <title>
-         Introducing Poole &middot; antonio's blog 
+         Posts Tagged &ldquo;javascript&rdquo; &middot; antonio's blog 
     </title>
     <!-- CSS -->
     <!-- build:css /assets/stylesheets/style.min.css -->
@@ -29,38 +29,37 @@
     <script type="text/javascript" src="/assets/javascript/jquery.fancybox.pack.js"></script>
     <script type="text/javascript" src="/assets/javascript/jquery.fancybox-media.js"></script>
     <script type="text/javascript" src="/assets/javascript/ya_jquery.fancybox.ready.function.js"></script>
-
     <script type="text/javascript">
     var j = jQuery.noConflict();
 
     j(document).ready(function() {
-    function openFancybox() {
-          setTimeout(function () {
-            j("#clickbanner").trigger('click');
-                }, 500);
+        function openFancybox() {
+            setTimeout(function() {
+                j("#clickbanner").trigger('click');
+            }, 500);
 
-    };
+        };
 
-    var visited = j.cookie('visited');
-    if (visited == 'yes') {
-        return false;
-    } else {
-        openFancybox();
-    };
-    j.cookie('visited', 'yes', {
-        expires: 1
-    });
-
-    j("#clickbanner").click(function() {
-        j.fancybox({
-          href: this.href,
-            type: "image",
-            maxWidth: 750,
-            maxHeight: 502
+        var visited = j.cookie('visited');
+        if (visited == 'yes') {
+            return false;
+        } else {
+            openFancybox();
+        };
+        j.cookie('visited', 'yes', {
+            expires: 1
         });
-        return false;
+
+        j("#clickbanner").click(function() {
+            j.fancybox({
+                href: this.href,
+                type: "image",
+                maxWidth: 750,
+                maxHeight: 502
+            });
+            return false;
+        });
     });
-});
     </script>
     <script>
     // Picture element HTML5 shiv
@@ -122,12 +121,12 @@
 <!-- Toggleable sidebar -->
 <div class="sidebar" id="sidebar">
   <div class="sidebar-item">
-    <img class="pic_of_me" src="/assets/images/pic_of_me.jpg" alt="">
+    <img class="pic-of-me" src="/assets/images/pic_of_me.jpg" alt="">
     <p style="margin-top:40px; font-size: 13px">a blog about the dev world and stuff!</p>
   </div>
 
   <nav class="sidebar-nav">
-    <a class="sidebar-nav-item" href="/">home</a>
+    <a class="sidebar-nav-item" href="/">Home</a>
 
     
 
@@ -139,7 +138,7 @@
     
       
         
-          <a class="sidebar-nav-item" href="/about/">about me</a>
+          <a class="sidebar-nav-item" href="/about/">About me</a>
         
       
     
@@ -159,7 +158,11 @@
     
       
         
-          <a class="sidebar-nav-item" href="/work/">my work</a>
+          <a class="sidebar-nav-item" href="/work/">My work</a>
+        
+      
+    
+      
         
       
     
@@ -203,92 +206,22 @@
             </div>
             <div class="containerL content">
                 <a id="showHere"></a>
-                <div class="post">
-  <h1 class="post-title">Introducing Poole</h1> <br>
-  <span class="author-name">antonio ortiz</span>
-  <span class="post-date">02 Mar 2014</span>
-  <p><em>The Strange Case of Dr. Jeykll and Mr. Hyde</em> tells the story of a lawyer
-investigating the connection of two persons, Dr. Henry Jekyll and Mr. Edward
-Hyde. Chief among the novel&rsquo;s supporting cast is a man by the name of Mr. Poole,
-Dr. Jekyll&rsquo;s loyal butler.</p>
-
-<hr>
-
-<p>Poole is the butler for <a href="http://jekyllrb.com">Jekyll</a>, the static site
-generator. It&rsquo;s designed and developed by <a href="https://twitter.com/mdo">@mdo</a> to
-provide a clear and concise foundational setup for any Jekyll site. It does so
-by furnishing a full vanilla Jekyll install with example templates, pages,
-posts, and styles.</p>
-
-<p>There are currently two themes built on Poole:</p>
-
-<ul>
-<li><a href="http://hyde.getpoole.com">Hyde</a></li>
-<li><a href="http://lanyon.getpoole.com">Lanyon</a></li>
-</ul>
-
-<p>Learn more and contribute on <a href="https://github.com/poole">GitHub</a>.</p>
-
-<h3>What&rsquo;s included</h3>
-
-<p>Poole is a streamlined Jekyll site designed and built as a foundation for
-building more meaningful themes. Poole, and every theme built on it, includes
-the following:</p>
-
-<ul>
-<li>Complete Jekyll setup included (layouts, config, <a href="/404">404</a>, <a href="/atom.xml">RSS
-feed</a>, posts, and <a href="/about">example page</a>)</li>
-<li>Mobile friendly design and development</li>
-<li>Easily scalable text and component sizing with <code>rem</code> units in the CSS</li>
-<li>Support for a wide gamut of HTML elements</li>
-<li>Related posts (time-based, because Jekyll) below each post</li>
-<li>Syntax highlighting, courtesy Pygments (the Python-based code snippet
-highlighter)</li>
-</ul>
-
-<p>Additional features are available in individual themes.</p>
-
-<h3>Browser support</h3>
-
-<p>Poole and it&rsquo;s themes are by preference a forward-thinking project. In addition
-to the latest versions of Chrome, Safari (mobile and desktop), and Firefox, it
-is only compatible with Internet Explorer 9 and above.</p>
-
-<h3>Download</h3>
-
-<p>Poole is developed on and hosted with GitHub. Head to the <a
-href="https://github.com/poole/poole">GitHub repository</a> for downloads, bug
-reports, and features requests.</p>
-
-<p>Thanks!</p>
-
-</div>
-
-<div class="related">
-  <h2>Related Posts</h2>
-  <ul class="related-posts">
-    
-      <li>
-        <h3>
-          <a href="/jekyll/2014/03/03/welcome-to-jekyll/">
-            Welcome to Jekyll!
-            <small>03 Mar 2014</small>
-          </a>
-        </h3>
-      </li>
-    
-      <li>
-        <h3>
-          <a href="/my-proto-post">
-            This is my __proto__ post!
-            <small>24 Jun 2015</small>
-          </a>
-        </h3>
-      </li>
-    
-  </ul>
-</div>
- 
+                <h2>Posts Tagged &ldquo;javascript&rdquo;</h2>
+<table class="table-override">
+    <tbody class="tbody-overide">
+          
+        <tr>
+            <td>
+                <h3><a href="/my-proto-post">This is my __proto__ post!</a></h3>
+                <p><strong>June 24, 2015</strong> .  .
+                    <a href="http://erjjones.github.com/my-proto-post#disqus_thread" data-disqus-identifier="/my-proto-post"></a>
+                    <br/><small><i></i></small>
+                    <br/><small><i class="icon-tags"></i>  <a href="/tags/javascript" title="View posts tagged with &quot;javascript&quot;"><u>javascript</u></a>    </small></p>
+            </td>
+        </tr>
+          
+    </tbody>
+</table> 
             </div>
         </div>
     </div>

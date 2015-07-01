@@ -26,42 +26,7 @@
     }
     </script>
     <script type="text/javascript" src="/assets/javascript/jquery-1.9.1.min.js"></script>
-    <script type="text/javascript" src="/assets/javascript/jquery.cookie.js"></script>
-    <script type="text/javascript" src="/assets/javascript/jquery.fancybox.pack.js"></script>
-    <script type="text/javascript" src="/assets/javascript/jquery.fancybox-media.js"></script>
-    <script type="text/javascript" src="/assets/javascript/ya_jquery.fancybox.ready.function.js"></script>
-    <script type="text/javascript">
-    var j = jQuery.noConflict();
-
-    j(document).ready(function() {
-        function openFancybox() {
-            setTimeout(function() {
-                j("#clickbanner").trigger('click');
-            }, 500);
-
-        };
-
-        var visited = j.cookie('visited');
-        if (visited == 'yes') {
-            return false;
-        } else {
-            openFancybox();
-        };
-        j.cookie('visited', 'yes', {
-            expires: 1
-        });
-
-        j("#clickbanner").click(function() {
-            j.fancybox({
-                href: this.href,
-                type: "image",
-                maxWidth: 750,
-                maxHeight: 502
-            });
-            return false;
-        });
-    });
-    </script>
+    
     <script>
     // Picture element HTML5 shiv
     document.createElement("picture");
@@ -210,25 +175,52 @@
                 <div class="page">
   <h1 class="page-title"></h1>
   <!-- .container is main centered wrapper -->
-
 <div class="workContainer">
     <h1>
     Cookie control
 </h1>
-<!-- 
+    <!-- 
     <a href="http://antonioswork.com/mirocelics_photography/index.php" target="_blank" class="miroLink"  title="Go ahead, and click on it!"></a> -->
     <p>
-        At work, I was tasked to have a modal pop up once per session, for each vistor. So of course JavaScript to the resuce!
-        <br>
+        At work, I was tasked to have a modal pop up once per session, for each vistor.
+        <br> I wound up doing some googling and found <a href="https://github.com/carhartl/jquery-cookie" target="_blank">'jquery-cookie.'</a> I find it amazing that almost anything you can think of exists out there, and if it doesn't with some tinkering and some well placed questions on 'Stack Overflow' you can get it to work!! 
 
-       I wound up doing some googling and found <a href="https://github.com/carhartl/jquery-cookie" target="_blank">'jquery cookie.'</a> I find it amazing that almost anything you can think of exists out there, and if it doesn't with some tinkering and some well placed questions on 'Stack Overflow' you can get it to work!!
+        <div class="highlight"><pre><code class="language-js" data-lang="js">&lt;script type=&quot;text/javascript&quot;&gt;
 
+        var j = jQuery.noConflict();
+
+        j(document).ready(function() {
+            function openFancybox() {
+                setTimeout(function() {
+                    j(&quot;#clickbanner&quot;).trigger(&#39;click&#39;);
+                }, 500);
+
+            };
+
+            var visited = j.cookie(&#39;visited&#39;);
+            if (visited == &#39;yes&#39;) {
+                return false;
+            } else {
+                openFancybox();
+            };
+            j.cookie(&#39;visited&#39;, &#39;yes&#39;, {
+                expires: 1
+            });
+
+            j(&quot;#clickbanner&quot;).click(function() {
+                j.fancybox({
+                    href: this.href,
+                    type: &quot;image&quot;,
+                    maxWidth: 750,
+                    maxHeight: 502
+                });
+                return false;
+            });
+        });
+        &lt;/script&gt;</code></pre></div>
     </p>
-
-    <a href="cookie_example/"  title="Go ahead, and click on it!"><img class="portfolioEx" src="/assets/images/cookie_site.jpg"></a>
+    <a href="cookie_example/" title="Go ahead, and click on it!"><img class="portfolioEx" src="/assets/images/cookie_site.jpg"></a>
 </div>
-
-
 </div>
  
             </div>

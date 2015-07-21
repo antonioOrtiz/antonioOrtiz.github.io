@@ -191,47 +191,6 @@
     </p>
     <a href="cookie_example" title="Go ahead, and click on it!"><img class="portfolioEx" src="/assets/images/cookie_site.jpg"></a>
 </div>
-<script type="text/javascript" src="../../../assets/javascript/jquery-1.9.1.min.js"></script>
-<script type="text/javascript" src="../../../assets/javascript/jquery.cookie.js"></script>
-<script type="text/javascript" src="../../../assets/javascript/jquery.fancybox.pack.js"></script>
-<script type="text/javascript" src="../../../assets/javascript/jquery.fancybox-media.js"></script>
-<script type="text/javascript" src="../../../assets/javascript/ya_jquery.fancybox.ready.function.js"></script>
-<script type="text/javascript">
-var j = jQuery.noConflict();
-
-j(document).ready(function() {
-    function openFancybox() {
-        setTimeout(function() {
-            j("#clickbanner").trigger('click');
-        }, 500);
-
-    };
-
-    var visited = j.cookie('visited');
-    if (visited == 'yes') {
-        return false;
-    } else {
-        openFancybox();
-    };
-    j.cookie('visited', 'yes', {
-        expires: 1, path: '/'
-    });
-
-    j("#clickbanner").click(function() {
-        j.fancybox({
-            href: this.href,
-            type: "image",
-            maxWidth: 750,
-            maxHeight: 502
-        });
-        return false;
-    });
-});
-</script>
-<script src="../../../assets/javascript/highlight.pack.js" ></script>
-<script>hljs.initHighlightingOnLoad();</script>
-
-
 
 </div>
  

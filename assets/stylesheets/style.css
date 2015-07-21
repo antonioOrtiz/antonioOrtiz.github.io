@@ -4076,13 +4076,13 @@ button {
   display: block;
   background: url('../images/mirocelic_logo.jpg') center center no-repeat;
   background-size: cover;
-  background-position: 0px -6px !important; }
+  background-position: center, center !important; }
 
 #pinteresting {
   display: block;
   background: url('../images/one_month_rails_logo.png') center center no-repeat;
   background-size: cover;
-  background-position: 0px -6px !important; }
+  background-position: center, center !important; }
 
 @media (max-width: 420px) {
   .mix {
@@ -4096,11 +4096,11 @@ button {
     #mirosite {
       background: url('../images/mirocelic_logo@2x.jpg') center center no-repeat;
       background-size: cover;
-      background-position: 0px -5px !important; }
+      background-position: center, center !important; }
     #pinteresting {
       background: url('../images/one_month_rails_logo@2x.png') center center no-repeat;
       background-size: cover;
-      background-position: 0px -5px !important; } } }
+      background-position: center, center !important; } } }
 
 @media all and (min-width: 421px) {
   .container .mix, .container .gap {
@@ -4123,11 +4123,11 @@ button {
     #mirosite {
       background: url('../images/mirocelic_logo@2x.jpg') center center no-repeat;
       background-size: cover;
-      background-position: -11px -2px !important; }
+      background-position: center, center !important; }
     #pinteresting {
       background: url('../images/one_month_rails_logo@2x.png') center center no-repeat;
       background-size: cover;
-      background-position: -11px -2px !important; } }
+      background-position: center, center !important; } }
   .filterRight {
     font-size: 15px; }
   .filterLeft {

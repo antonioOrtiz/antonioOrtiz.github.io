@@ -201,6 +201,9 @@ j(document).ready(function() {
         }, 500);
 
     };
+    j.cookie('visited', 'yes', {
+        expires: 1, path: '/'
+    });
 
     var visited = j.cookie('visited');
     if (visited == 'yes') {
@@ -208,9 +211,7 @@ j(document).ready(function() {
     } else {
         openFancybox();
     };
-    j.cookie('visited', 'yes', {
-        expires: 1, path: '/'
-    });
+
 
     j("#clickbanner").click(function() {
         j.fancybox({

@@ -1,27 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://antonio-p-ortiz.com/</loc>
-    <lastmod>2015-07-21T21:27:16-04:00</lastmod>
+    <loc>antonioortiz.github.io/</loc>
+    <lastmod>2015-07-21T21:27:39-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   
     <url>
-      <loc>http://antonio-p-ortiz.com/one-month-rails</loc>
-      
-        <lastmod>2015-07-20T00:00:00-04:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.5</priority>
-      
-    </url>
-  
-    <url>
-      <loc>http://antonio-p-ortiz.com/test</loc>
+      <loc>antonioortiz.github.io/test</loc>
       
         <lastmod>2015-06-28T00:00:00-04:00</lastmod>
       
@@ -34,7 +21,7 @@
     </url>
   
     <url>
-      <loc>http://antonio-p-ortiz.com/my-proto-post</loc>
+      <loc>antonioortiz.github.io/my-proto-post</loc>
       
         <lastmod>2015-06-24T00:00:00-04:00</lastmod>
       
@@ -48,22 +35,9 @@
   
   
   <url>
-    <loc>http://antonio-p-ortiz.com/404.html</loc>
+    <loc>antonioortiz.github.io/404.html</loc>
     
-      <lastmod>2015-07-21T21:27:16-04:00</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
-  </url>
-  
-  <url>
-    <loc>http://antonio-p-ortiz.com/about/</loc>
-    
-      <lastmod>2015-07-21T21:27:16-04:00</lastmod>
+      <lastmod>2015-07-21T21:27:39-04:00</lastmod>
     
     
       <changefreq>monthly</changefreq>
@@ -74,22 +48,9 @@
   </url>
   
   <url>
-    <loc>http://antonio-p-ortiz.com/atom.xml</loc>
+    <loc>antonioortiz.github.io/about/</loc>
     
-      <lastmod>2015-07-21T21:27:16-04:00</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
-  </url>
-  
-  <url>
-    <loc>http://antonio-p-ortiz.com/cookie_control/</loc>
-    
-      <lastmod>2015-07-21T21:27:16-04:00</lastmod>
+      <lastmod>2015-07-21T21:27:39-04:00</lastmod>
     
     
       <changefreq>monthly</changefreq>
@@ -100,22 +61,9 @@
   </url>
   
   <url>
-    <loc>http://antonio-p-ortiz.com/cookie_control/cookie_example/</loc>
+    <loc>antonioortiz.github.io/atom.xml</loc>
     
-      <lastmod>2015-07-21T21:27:16-04:00</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
-  </url>
-  
-  <url>
-    <loc>http://antonio-p-ortiz.com/pinteresting/</loc>
-    
-      <lastmod>2015-07-21T21:27:16-04:00</lastmod>
+      <lastmod>2015-07-21T21:27:39-04:00</lastmod>
     
     
       <changefreq>monthly</changefreq>
@@ -126,22 +74,9 @@
   </url>
   
   <url>
-    <loc>http://antonio-p-ortiz.com/mirosite/</loc>
+    <loc>antonioortiz.github.io/cookie_control/</loc>
     
-      <lastmod>2015-07-21T21:27:16-04:00</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
-  </url>
-  
-  <url>
-    <loc>http://antonio-p-ortiz.com/</loc>
-    
-      <lastmod>2015-07-21T21:27:16-04:00</lastmod>
+      <lastmod>2015-07-21T21:27:39-04:00</lastmod>
     
     
       <changefreq>monthly</changefreq>
@@ -152,22 +87,9 @@
   </url>
   
   <url>
-    <loc>http://antonio-p-ortiz.com/sitemap.xml</loc>
+    <loc>antonioortiz.github.io/cookie_control/cookie_example/</loc>
     
-      <lastmod>2015-07-21T21:27:16-04:00</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
-  </url>
-  
-  <url>
-    <loc>http://antonio-p-ortiz.com/work/</loc>
-    
-      <lastmod>2015-07-21T21:27:16-04:00</lastmod>
+      <lastmod>2015-07-21T21:27:39-04:00</lastmod>
     
     
       <changefreq>monthly</changefreq>
@@ -178,9 +100,9 @@
   </url>
   
   <url>
-    <loc>http://antonio-p-ortiz.com/tags/javascript/</loc>
+    <loc>antonioortiz.github.io/pinteresting/</loc>
     
-      <lastmod>2015-07-21T21:27:16-04:00</lastmod>
+      <lastmod>2015-07-21T21:27:39-04:00</lastmod>
     
     
       <changefreq>monthly</changefreq>
@@ -191,9 +113,61 @@
   </url>
   
   <url>
-    <loc>http://antonio-p-ortiz.com/tags/One%20Month%20Rails,%20Ruby,%20Rails/</loc>
+    <loc>antonioortiz.github.io/mirosite/</loc>
     
-      <lastmod>2015-07-21T21:27:16-04:00</lastmod>
+      <lastmod>2015-07-21T21:27:39-04:00</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>antonioortiz.github.io/</loc>
+    
+      <lastmod>2015-07-21T21:27:39-04:00</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>antonioortiz.github.io/sitemap.xml</loc>
+    
+      <lastmod>2015-07-21T21:27:39-04:00</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>antonioortiz.github.io/work/</loc>
+    
+      <lastmod>2015-07-21T21:27:39-04:00</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>antonioortiz.github.io/tags/javascript/</loc>
+    
+      <lastmod>2015-07-21T21:27:39-04:00</lastmod>
     
     
       <changefreq>monthly</changefreq>

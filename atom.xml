@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>antonio's blog</title>
- <link href="http://antonio-p-ortiz.com/atom.xml" rel="self"/>
- <link href="http://antonio-p-ortiz.com/"/>
- <updated>2015-07-21T21:27:16-04:00</updated>
- <id>http://antonio-p-ortiz.com</id>
+ <link href="antonioortiz.github.io/atom.xml" rel="self"/>
+ <link href="antonioortiz.github.io/"/>
+ <updated>2015-07-21T21:27:39-04:00</updated>
+ <id>antonioortiz.github.io</id>
  <author>
    <name>antonio ortiz</name>
    <email>17antonio.ortiz@gmail.com</email>
@@ -13,21 +13,10 @@
 
  
  <entry>
-   <title>One Month Rails!</title>
-   <link href="http://antonio-p-ortiz.com/one-month-rails"/>
-   <updated>2015-07-20T00:00:00-04:00</updated>
-   <id>http://antonio-p-ortiz.com/2015-07-20-omr</id>
-   <content type="html">&lt;p&gt;These are a few of my thoughts about taking the One Month Rails course&amp;hellip; &lt;/p&gt;
-
-&lt;!--more--&gt;
-</content>
- </entry>
- 
- <entry>
    <title>The window is an Object!</title>
-   <link href="http://antonio-p-ortiz.com/test"/>
+   <link href="antonioortiz.github.io/test"/>
    <updated>2015-06-28T00:00:00-04:00</updated>
-   <id>http://antonio-p-ortiz.com/the-window-is-a-Object!</id>
+   <id>antonioortiz.github.io/the-window-is-a-Object!</id>
    <content type="html">&lt;p&gt;I am sure everyone knows that (mostly), but for people who just started learning JS especially when learning how the keyword &amp;lsquo;this&amp;rsquo; that might not be so clear&amp;hellip;&lt;/p&gt;
 
 &lt;p&gt;In a lot of TUTS&amp;hellip; &lt;/p&gt;
@@ -38,9 +27,9 @@
  
  <entry>
    <title>This is my __proto__ post!</title>
-   <link href="http://antonio-p-ortiz.com/my-proto-post"/>
+   <link href="antonioortiz.github.io/my-proto-post"/>
    <updated>2015-06-24T00:00:00-04:00</updated>
-   <id>http://antonio-p-ortiz.com/my-proto-post</id>
+   <id>antonioortiz.github.io/my-proto-post</id>
    <content type="html">&lt;p&gt;So this is my first blog post!&lt;/p&gt;
 
 &lt;!--more--&gt;

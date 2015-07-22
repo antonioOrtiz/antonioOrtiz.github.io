@@ -134,6 +134,10 @@
         
       
     
+      
+        
+      
+    
 
     <span class="sidebar-nav-item">Run by <a href="https://twitter.com/antonio_ortiz">@antonio ortiz<a/></span>
   </nav>
@@ -201,7 +205,6 @@ j(document).ready(function() {
         }, 500);
 
     };
-   
 
     var visited = j.cookie('visited');
     if (visited == 'yes') {
@@ -209,8 +212,7 @@ j(document).ready(function() {
     } else {
         openFancybox();
     };
-
- j.cookie('visited', 'yes', {
+    j.cookie('visited', 'yes', {
         expires: 1, path: '/'
     });
 

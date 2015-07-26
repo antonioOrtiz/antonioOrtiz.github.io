@@ -7,7 +7,7 @@
     <!-- Enable responsiveness on mobile devices-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
     <title>
-          &middot; antonio's blog 
+         Fear of using the wrong JS Framework! &middot; antonio's blog 
     </title>
     <!-- CSS -->
     <!-- build:css /assets/stylesheets/style.min.css -->
@@ -181,59 +181,73 @@
             </div>
             <div class="containerL content">
                 <a id="showHere"></a>
-                <!-- .container is main centered wrapper -->
+                <div class="post">
+    <h1 class="post-title">Fear of using the wrong JS Framework!</h1>
+    <br>
+    <span class="author-name">antonio ortiz</span>
+    <span class="post-date">25 Jul 2015</span> 
+    <p>You&rsquo;re going to discover pretty quickly, they&rsquo;re a ton of Frameworks to choose from. Maybe you shouldn&rsquo;t bother at all with them; At least you shouldn&rsquo;t feel like you have to&hellip;</p>
 
-<div class="workContainer">
-    <div class="row20"></div>
-    <div id="hiddenLink" class="wrapper">
-        <div class="genericDiv">
-            <img class="u-full-width" src="/assets/images/beauty_for_a_purpose/bfap_call_to_action.jpg">
-            <a href="https://www.youtube.com/embed/2mfUrGTbR-c" class="u-full-width fancybox fancybox.iframe" href="https://www.youtube.com/embed/2mfUrGTbR-c" title="Sheri's video message"><img class="u-full-width" src="/assets/images/beauty_for_a_purpose/bfap_video.jpg"></a>
-            <img class="u-full-width" src="/assets/images/beauty_for_a_purpose/bfap_btn.jpg">
-            <a id="clickbanner" href="/assets/images/beauty_for_a_purpose/Beauty_for_a_Purpose_Sheri_Card_EN.jpg" rel="gallery"></a>
-        </div>
-    </div>
-    <script type="text/javascript" src="../../../assets/javascript/jquery-1.9.1.min.js"></script>
-<script type="text/javascript" src="../../../assets/javascript/jquery.cookie.js"></script>
-<script type="text/javascript" src="../../../assets/javascript/jquery.fancybox.pack.js"></script>
-<script type="text/javascript" src="../../../assets/javascript/jquery.fancybox-media.js"></script>
-<script type="text/javascript" src="../../../assets/javascript/ya_jquery.fancybox.ready.function.js"></script>
-<script type="text/javascript" src="../assets/javascript/todo.js"></script>
+<!--more-->
 
+<p>From the perspective of a person who is still fairly new, once I had a handle on some basics, I started to seek various resources to keep informed on the goings on (<a href="http://teamtreehouse.com/library/the-treehouse-show">The Treehouse Show,</a> <a href="http://javascriptissexy.com/">JavaScript.isSexy Blog</a> <a href="http://dailyjs.com/">DailyJS</a>) in the community.</p>
+
+<p>Suddenly, I was inundated with various catchy nouns with &ldquo;.js&rdquo; appended to them and it made me feel like I had to know about all of them all at once! Now of course, just because you take up running, doesn&rsquo;t mean you need every ware a shoppe might be selling in order to get going in the beginiing. All you really need is a pair of sneakers and some sensible attire depending on the climate you&rsquo;re in. However, that analogy falls over because lets face it, most of us aren&rsquo;t writting code for fun. Well ideally we would like to have fun, but we just would like to do things the right way, at least deep down&hellip;</p>
+
+<p>It might be helpful if we define what a framework is? I really loved this explanation from (<a href="https://stackoverflow.com/questions/2964140/what-is-a-framework-what-does-it-do-why-do-we-need-a-framework/12733126#12733126">Stack Overflow member Neha Choudhary</a>):</p>
+
+<blockquote>
+<p>If I told you to cut a piece of paper with dimensions 5m by 5m then surely you would do that. But then I ask you to cut 1000 pieces of paper of the same dimensions. Then you won&rsquo;t do the measuring 1000 times, obviously you would make a frame of 5m by 5m and then with the help of it you would be able to cut 1000 papers in less time. So, what you did is made a framework which would do that type of task. So, instead of performing the same type of task again and again for the same type of applications, what you do is create a framework having all those facilities together in one nice packet, hence providing the abstraction for your application and more importantly many applications.</p>
+</blockquote>
+
+<p>Define Library.</p>
+
+
+    
+    <hr>
+    <img class="pic-of-me-posts" src="/assets/images/pic_of_me.jpg">
+    
+</div>
+
+
+<div class="related">
+    <h2>Related Posts</h2>
+    <ul class="related-posts">
+        
+        <li>
+            <h3>
+          <a href="/one-month-rails">
+            One Month Rails!
+            <small>20 Jul 2015</small>
+          </a>
+        </h3>
+        </li>
+        
+    </ul>
+    <ul class="tags">
+        <h3>Tags</h3> 
+        <li><a href="/tags/One Month Rails, Ruby, Rails">One Month Rails, Ruby, Rails</a></li>
+        
+        <li><a href="/tags/MVC, JavaScript">MVC, JavaScript</a></li>
+        
+    </ul>
+</div> 
+<!-- Add Disqus comments. -->
+<div id="disqus_thread"></div>
 <script type="text/javascript">
-var j = jQuery.noConflict();
-
-j(document).ready(function() {
-    function openFancybox() {
-        setTimeout(function() {
-            j("#clickbanner").trigger('click');
-        }, 500);
-
-    };
-
-    var visited = j.cookie('visited');
-    if (visited == 'yes') {
-        return false;
-    } else {
-        openFancybox();
-    };
-    j.cookie('visited', 'yes', {
-        expires: 1, path: '/'
-    });
-
-    j("#clickbanner").click(function() {
-        j.fancybox({
-            href: this.href,
-            type: "image",
-            maxWidth: 750,
-            maxHeight: 502
-        });
-        return false;
-    });
-});
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'antonio-p-ortiz';
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
 </script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 
- 
             </div>
         </div>
     </div>

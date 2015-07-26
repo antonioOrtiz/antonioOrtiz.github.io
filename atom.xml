@@ -4,7 +4,7 @@
  <title>antonio's blog</title>
  <link href="antonioortiz.github.io/atom.xml" rel="self"/>
  <link href="antonioortiz.github.io/"/>
- <updated>2015-07-22T19:01:17-04:00</updated>
+ <updated>2015-07-26T14:27:06-04:00</updated>
  <id>antonioortiz.github.io</id>
  <author>
    <name>antonio ortiz</name>
@@ -13,26 +13,49 @@
 
  
  <entry>
-   <title>The window is an Object!</title>
-   <link href="antonioortiz.github.io/test"/>
-   <updated>2015-06-28T00:00:00-04:00</updated>
-   <id>antonioortiz.github.io/the-window-is-a-Object!</id>
-   <content type="html">&lt;p&gt;I am sure everyone knows that (mostly), but for people who just started learning JS especially when learning how the keyword &amp;lsquo;this&amp;rsquo; that might not be so clear&amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;In a lot of TUTS&amp;hellip; &lt;/p&gt;
+   <title>Fear of using the wrong JS Framework!</title>
+   <link href="antonioortiz.github.io/FOUTWT-JS"/>
+   <updated>2015-07-25T00:00:00-04:00</updated>
+   <id>antonioortiz.github.io/js-frameworks</id>
+   <content type="html">&lt;p&gt;You&amp;rsquo;re going to discover pretty quickly, they&amp;rsquo;re a ton of Frameworks to choose from. Maybe you shouldn&amp;rsquo;t bother at all with them; At least you shouldn&amp;rsquo;t feel like you have to&amp;hellip;&lt;/p&gt;
 
 &lt;!--more--&gt;
+
+&lt;p&gt;From the perspective of a person who is still fairly new, once I had a handle on some basics, I started to seek various resources to keep informed on the goings on (&lt;a href=&quot;http://teamtreehouse.com/library/the-treehouse-show&quot;&gt;The Treehouse Show,&lt;/a&gt; &lt;a href=&quot;http://javascriptissexy.com/&quot;&gt;JavaScript.isSexy Blog&lt;/a&gt; &lt;a href=&quot;http://dailyjs.com/&quot;&gt;DailyJS&lt;/a&gt;) in the community.&lt;/p&gt;
+
+&lt;p&gt;Suddenly, I was inundated with various catchy nouns with &amp;ldquo;.js&amp;rdquo; appended to them and it made me feel like I had to know about all of them all at once! Now of course, just because you take up running, doesn&amp;rsquo;t mean you need every ware a shoppe might be selling in order to get going in the beginiing. All you really need is a pair of sneakers and some sensible attire depending on the climate you&amp;rsquo;re in. However, that analogy falls over because lets face it, most of us aren&amp;rsquo;t writting code for fun. Well ideally we would like to have fun, but we just would like to do things the right way, at least deep down&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;It might be helpful if we define what a framework is? I really loved this explanation from (&lt;a href=&quot;https://stackoverflow.com/questions/2964140/what-is-a-framework-what-does-it-do-why-do-we-need-a-framework/12733126#12733126&quot;&gt;Stack Overflow member Neha Choudhary&lt;/a&gt;):&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;If I told you to cut a piece of paper with dimensions 5m by 5m then surely you would do that. But then I ask you to cut 1000 pieces of paper of the same dimensions. Then you won&amp;rsquo;t do the measuring 1000 times, obviously you would make a frame of 5m by 5m and then with the help of it you would be able to cut 1000 papers in less time. So, what you did is made a framework which would do that type of task. So, instead of performing the same type of task again and again for the same type of applications, what you do is create a framework having all those facilities together in one nice packet, hence providing the abstraction for your application and more importantly many applications.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Define Library.&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
-   <title>This is my __proto__ post!</title>
-   <link href="antonioortiz.github.io/my-proto-post"/>
-   <updated>2015-06-24T00:00:00-04:00</updated>
-   <id>antonioortiz.github.io/my-proto-post</id>
-   <content type="html">&lt;p&gt;So this is my first blog post!&lt;/p&gt;
+   <title>One Month Rails!</title>
+   <link href="antonioortiz.github.io/one-month-rails"/>
+   <updated>2015-07-20T00:00:00-04:00</updated>
+   <id>antonioortiz.github.io/omr</id>
+   <content type="html">&lt;p&gt;The most obvious, or maybe the most generic question asked after finishing the &lt;a href=&quot;https://onemonth.com/courses/one-month-rails&quot;&gt;OMR&lt;/a&gt; course, is probably:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;&amp;ldquo;Do you feel you are a Rails Developer now?&amp;rdquo; &amp;ldquo;D&amp;#39;oy, of course not. (I had to answer it)&amp;hellip;&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;!--more--&gt;
+
+&lt;p&gt;O.K. maybe nobody is going to ask that, but it might be some variant of it.
+Do you think you could apply what you learned to build another project? Hmmm.&lt;/p&gt;
+
+&lt;p&gt;For me, it turns out, one of the best practices &amp;ldquo;Mattan Griffel&amp;rdquo; suggested (he is the instructor/guide through the course, and one of the founders of One Month) I had been doing already. In my case that was utilizing &lt;a href=&quot;http://stackexchange.com/users/1383310/antonio-ortiz?tab=top&quot;&gt;*Stack Overflow&lt;/a&gt;. Which was a teriffic confidence booster. Because lets face it. If you&amp;rsquo;re a total newb, (especically if you&amp;rsquo;re learning alone&amp;hellip; i.e. sans a boot-camp etc.) and trying to get setups to work, tools to spit out the right info etc., What you want is a sign, &lt;strong&gt;ANY&lt;/strong&gt; sign, you&amp;rsquo;re doing something right.&lt;/p&gt;
+
+&lt;p&gt;Probably a more obvious benefit, you have SOMETHING you built from scratch at the end of the exercise. Which is probably sitting on &lt;a href=&quot;https://en.wikipedia.org/wiki/GitHub&quot;&gt;GitHub&lt;/a&gt; and being hosted by &lt;a href=&quot;https://www.heroku.com/about&quot;&gt;Heroku.&lt;/a&gt; Being proficient in a language will only come from getting in the code and knowing why things are happening and responding in said language in a elegent and succint manner. The later, takes time, but former could be compared to carrying a pocket dictionary if you&amp;rsquo;re learning a spoken language for quick reference. (Actually there is a cool app called &lt;a href=&quot;https://kapeli.com/dash&quot;&gt;Dash&lt;/a&gt; which is like a docset dictionary) &lt;/p&gt;
+
+&lt;p&gt;&lt;small&gt;*For the uninitiated, that&amp;rsquo;s a website where you can ask a question based upon your problem in your project or regarding something you&amp;rsquo;re not quite getting in a particular programming language, framework etc.&lt;/small&gt;&lt;/p&gt;
 </content>
  </entry>
  

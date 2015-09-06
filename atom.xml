@@ -4,13 +4,65 @@
  <title>antonio's blog</title>
  <link href="antonioortiz.github.io/atom.xml" rel="self"/>
  <link href="antonioortiz.github.io/"/>
- <updated>2015-08-23T13:44:38-04:00</updated>
+ <updated>2015-09-05T20:40:00-04:00</updated>
  <id>antonioortiz.github.io</id>
  <author>
    <name>antonio ortiz</name>
    <email>17antonio.ortiz@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>The window is an Object!</title>
+   <link href="antonioortiz.github.io/The window is and Object"/>
+   <updated>2015-09-05T00:00:00-04:00</updated>
+   <id>antonioortiz.github.io/the-window-is-a-Object</id>
+   <content type="html">&lt;p&gt;I am sure everyone knows that—mostly, but for people who just started learning JS—especially when getting introduced to concepts regarding &lt;code&gt;scope&lt;/code&gt;, and how the  &lt;code&gt;this&lt;/code&gt; keyword works, I think if we explicity showed the Window is just an Object right from the start, it would help getting the aforementioned concepts.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;So here goes! Open up your text editor or better yet let&amp;rsquo;s crack open your developer tools from your favorite browser; I use chrome, but use whatever you want. Anyway, if you do  &lt;code&gt;command + option + j&lt;/code&gt;(in chrome on a mac, probably &lt;code&gt;ctrl + alt + j&lt;/code&gt; on a pc ) you&amp;rsquo;ll get right to the javascript console. Basically below is what I actually entered in the developer tools,&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;lineno&quot;&gt; 1&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;//object declared in global scope&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt; 2&lt;/span&gt; 
+&lt;span class=&quot;lineno&quot;&gt; 3&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;starship&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt; 4&lt;/span&gt; 
+&lt;span class=&quot;lineno&quot;&gt; 5&lt;/span&gt;     &lt;span class=&quot;c1&quot;&gt;//properties&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt; 6&lt;/span&gt; 
+&lt;span class=&quot;lineno&quot;&gt; 7&lt;/span&gt;     &lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;        &lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;   &lt;span class=&quot;s2&quot;&gt;&amp;quot;enterprise&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt; 8&lt;/span&gt;     &lt;span class=&quot;nx&quot;&gt;registry&lt;/span&gt;    &lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;   &lt;span class=&quot;s2&quot;&gt;&amp;quot;1701&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt; 9&lt;/span&gt;     &lt;span class=&quot;nx&quot;&gt;sovereignty&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;   &lt;span class=&quot;s2&quot;&gt;&amp;quot;federation&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;10&lt;/span&gt; 
+&lt;span class=&quot;lineno&quot;&gt;11&lt;/span&gt;     &lt;span class=&quot;c1&quot;&gt;//methods&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;12&lt;/span&gt; 
+&lt;span class=&quot;lineno&quot;&gt;13&lt;/span&gt;     &lt;span class=&quot;nx&quot;&gt;hail&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;14&lt;/span&gt; 
+&lt;span class=&quot;lineno&quot;&gt;15&lt;/span&gt;         &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;This is the starship &amp;#39;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39; of the United &amp;#39;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;16&lt;/span&gt;          &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;sovereignty&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39; of planets..&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;17&lt;/span&gt; 
+&lt;span class=&quot;lineno&quot;&gt;18&lt;/span&gt;     &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;19&lt;/span&gt; 
+&lt;span class=&quot;lineno&quot;&gt;20&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;21&lt;/span&gt; 
+&lt;span class=&quot;lineno&quot;&gt;22&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;//function declaration in global scope&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;23&lt;/span&gt; 
+&lt;span class=&quot;lineno&quot;&gt;24&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;omniPresentCommunication&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;25&lt;/span&gt; 
+&lt;span class=&quot;lineno&quot;&gt;26&lt;/span&gt;     &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;This sector is full of worm-holes, starships beware!&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;27&lt;/span&gt; 
+&lt;span class=&quot;lineno&quot;&gt;28&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;29&lt;/span&gt; 
+&lt;span class=&quot;lineno&quot;&gt;30&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;undefined&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;31&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;window&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;hasOwnProperty&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;starship&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;window&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;hasOwnProperty&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;omniPresentCommunication&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;32&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;What is the most interesting aspect of what we entered was,  when we called the &lt;code&gt;hasOwnProperty*&lt;/code&gt;  method on the window object, first using the &lt;code&gt;starship&lt;/code&gt; object and then the &lt;code&gt;omniPresentCommunication&lt;/code&gt; function. We get &lt;code&gt;true&lt;/code&gt; back. That is because since those entities where declared in the global scope, we have just essentially added them as properties and methods to the big ole global object! Not only that, but if we passed the &lt;code&gt;window&lt;/code&gt; object to the &lt;code&gt;console.dir(window)&lt;/code&gt;, like so, you&amp;rsquo;ll will find them there, with a ton of other properties and methods.&lt;/p&gt;
+
+&lt;p&gt;To me, that makes understanding the &lt;code&gt;this&lt;/code&gt; keyword &lt;code&gt;scope&lt;/code&gt; and the &lt;code&gt;call&lt;/code&gt; and &lt;code&gt;apply&lt;/code&gt; methods much easier to understand&amp;hellip;That&amp;rsquo;ll be next!&lt;/p&gt;
+
+&lt;p&gt;&lt;small&gt;*The&lt;code&gt;hasOwnProperty()&lt;/code&gt; method returns a boolean indicating whether the object has the specified property.&lt;/small&gt;&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Fear of using the wrong JS Framework!</title>
@@ -51,7 +103,7 @@ Do you think you could apply what you learned to build another project? Hmmm.&lt
 
 &lt;p&gt;For me, it turns out, one of the best practices &amp;ldquo;Mattan Griffel&amp;rdquo; suggested (he is the instructor/guide through the course, and one of the founders of One Month) I had been doing already. In my case that was utilizing &lt;a href=&quot;http://stackexchange.com/users/1383310/antonio-ortiz?tab=top&quot;&gt;*Stack Overflow&lt;/a&gt;. Which was a teriffic confidence booster. Because lets face it. If you&amp;rsquo;re a total newb, (especically if you&amp;rsquo;re learning alone&amp;hellip; i.e. sans a boot-camp etc.) and trying to get setups to work, tools to spit out the right info etc., What you want is a sign, &lt;strong&gt;ANY&lt;/strong&gt; sign, you&amp;rsquo;re doing something right.&lt;/p&gt;
 
-&lt;p&gt;Probably a more obvious benefit, you have SOMETHING you built from scratch at the end of the exercise. Which is probably sitting on &lt;a href=&quot;https://en.wikipedia.org/wiki/GitHub&quot;&gt;GitHub&lt;/a&gt; and being hosted by &lt;a href=&quot;https://www.heroku.com/about&quot;&gt;Heroku.&lt;/a&gt; Being proficient in a language will only come from getting in the code and knowing why things are happening and responding in said language in a elegent and succint manner. The later, takes time, but former could be compared to carrying a pocket dictionary if you&amp;rsquo;re learning a spoken language for quick reference. (Actually there is a cool app called &lt;a href=&quot;https://kapeli.com/dash&quot;&gt;Dash&lt;/a&gt; which is like a docset dictionary) &lt;/p&gt;
+&lt;p&gt;Probably a more obvious benefit, you have SOMETHING you built from scratch at the end of the exercise. Which is probably sitting on &lt;a href=&quot;https://en.wikipedia.org/wiki/GitHub&quot;&gt;GitHub&lt;/a&gt; and being hosted by &lt;a href=&quot;https://www.heroku.com/about&quot;&gt;Heroku.&lt;/a&gt; Being proficient in a language will only come from getting in the code and knowing why things are happening and responding in said language in a elegent and succint manner. The later, takes time, but former could be compared to carrying a pocket dictionary if you&amp;rsquo;re learning a spoken language for quick reference. (Actually there is a cool app called &lt;a href=&quot;https://kapeli.com/dash&quot;&gt;Dash&lt;/a&gt; which is like a docset dictionary)&lt;/p&gt;
 
 &lt;p&gt;&lt;small&gt;*For the uninitiated, that&amp;rsquo;s a website where you can ask a question based upon your problem in your project or regarding something you&amp;rsquo;re not quite getting in a particular programming language, framework etc.&lt;/small&gt;&lt;/p&gt;
 </content>

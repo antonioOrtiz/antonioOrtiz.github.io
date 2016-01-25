@@ -4,7 +4,7 @@
  <title>antonio's blog</title>
  <link href="antonioortiz.github.io/atom.xml" rel="self"/>
  <link href="antonioortiz.github.io/"/>
- <updated>2016-01-24T15:03:43-05:00</updated>
+ <updated>2016-01-24T19:55:56-05:00</updated>
  <id>antonioortiz.github.io</id>
  <author>
    <name>antonio ortiz</name>
@@ -14,7 +14,7 @@
  
  <entry>
    <title>The window is an Object!</title>
-   <link href="antonioortiz.github.io/The window is and Object"/>
+   <link href="antonioortiz.github.io/The-window-is-an-Object"/>
    <updated>2015-09-05T00:00:00-04:00</updated>
    <id>antonioortiz.github.io/the-window-is-a-Object</id>
    <content type="html">&lt;p&gt;I am sure everyone knows that—mostly, but for people who just started learning JS—especially when getting introduced to concepts regarding &lt;code&gt;scope&lt;/code&gt;, and how the  &lt;code&gt;this&lt;/code&gt; keyword works, I think if we explicity showed the Window is just an Object right from the start, it would help getting the aforementioned concepts.&lt;/p&gt;

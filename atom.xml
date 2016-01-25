@@ -4,13 +4,44 @@
  <title>antonio's blog</title>
  <link href="antonioortiz.github.io/atom.xml" rel="self"/>
  <link href="antonioortiz.github.io/"/>
- <updated>2016-01-24T19:57:36-05:00</updated>
+ <updated>2016-01-24T20:00:21-05:00</updated>
  <id>antonioortiz.github.io</id>
  <author>
    <name>antonio ortiz</name>
    <email>17antonio.ortiz@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>The window is an Object (part 1.5*)!</title>
+   <link href="antonioortiz.github.io/The-window-is-an-Object-part-one-and-a-half"/>
+   <updated>2016-01-24T00:00:00-05:00</updated>
+   <id>antonioortiz.github.io/The-window-is-an-Object-part-one-and-a-half</id>
+   <content type="html">&lt;p&gt;Sorry I didn&amp;rsquo;t get to the second* part of this post sooner. That was actually fortuitious in a way, because I found some great resources I&amp;rsquo;d like to share which I believe will help get my point across!&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;A few weeks after I wrote the previous post, I decided to check out &lt;a href=&quot;https://www.pluralsight.com/&quot;&gt;pluralsight&lt;/a&gt;. You see—and I may have mentioned this in another post, but I am learning Web Development in perhaps, not the most straightforward sort of way.&lt;/p&gt;
+
+&lt;p&gt;I have a wife (Barbara), dog (Charly) and mortgage payments (the man) I have to make. So I can&amp;rsquo;t really just quit my full-time job and do a boot-camp**. Essentially my method of learning has been via blogposts, podcasts and my favorite&amp;hellip;videos!&lt;/p&gt;
+
+&lt;p&gt;BTW, speaking of vidoes, Pluralsight has a course called &amp;lsquo;Advanced JavaScript&amp;rsquo; by &lt;a href=&quot;http://getify.me/&quot;&gt;Kyle Simpson***&lt;/a&gt;. If you gobbled up codecademy, code school and lynda.com courses and want to get deeper into JS, I&amp;rsquo;d check it out.&lt;/p&gt;
+
+&lt;p&gt;And in a nut shell, after thinking about it for a while, I think this best describes where I am coming from&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;There comes a time after you have gotten your feet wet in those  aforementioned interactive environments, and have some of the basics down in your respective language. So I believe any further learning should be with your resource e.g. book, youtube video, code-site etc. and essentiallly your real tools e.g. text editor, command-line, browser etc. Now, I finally appreciate what a lot of authors suggest—TYPE THINGS OUT!&lt;/p&gt;
+
+&lt;p&gt;I feel I am so lucky because in JS all you need to do is pop open the console and essentially you can have an environment with little effort!&lt;/p&gt;
+
+&lt;p&gt;&lt;small&gt;
+* Actually like the title says, this is episode 1.5, much like &lt;a href=&quot;https://en.wikipedia.org/wiki/George_Lucas&quot;&gt;George Lucas&lt;/a&gt; I have decided to alter the normal temporal mechanics of things and squeeze in another post
+&lt;br&gt;
+** Just to be clear, Bootcamps are awesome and if they fit your life dynamics—go for it! :)&lt;br&gt;
+** Kyle also has a terrific series of books called &lt;a href=&quot;http://shop.oreilly.com/product/0636920026327.do&quot;&gt;&amp;#39;You don&amp;rsquo;t know JS&amp;rsquo;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/small&gt;&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>The window is an Object!</title>

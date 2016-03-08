@@ -4,7 +4,7 @@
  <title>antonio's blog</title>
  <link href="antonioortiz.github.io/atom.xml" rel="self"/>
  <link href="antonioortiz.github.io/"/>
- <updated>2016-03-06T10:27:17-05:00</updated>
+ <updated>2016-03-07T20:46:46-05:00</updated>
  <id>antonioortiz.github.io</id>
  <author>
    <name>antonio ortiz</name>
@@ -89,7 +89,7 @@
 
 &lt;p&gt;What is the most interesting aspect of what we entered was, when we called the &lt;code&gt;hasOwnProperty*&lt;/code&gt; method on the window object, first using the &lt;code&gt;starship&lt;/code&gt; object and then the &lt;code&gt;omniPresentCommunication&lt;/code&gt; function. We get &lt;code&gt;true&lt;/code&gt; back. That is because since those entities were declared in the global scope, we have just essentially added them as properties and methods to the big ole global object! Not only that, but if we passed the &lt;code&gt;window&lt;/code&gt; object to &lt;code&gt;console.dir(window)&lt;/code&gt;, like so, you&amp;rsquo;ll will find them there, with a ton of other properties and methods.&lt;/p&gt;
 
-&lt;p&gt;To me, that makes understanding the &lt;code&gt;this&lt;/code&gt; keyword &lt;code&gt;scope&lt;/code&gt; and the &lt;code&gt;call&lt;/code&gt; and &lt;code&gt;apply&lt;/code&gt; methods much easier to understand&amp;hellip;That&amp;rsquo;ll be next!&lt;/p&gt;
+&lt;p&gt;To me, that makes understanding the &lt;code&gt;this&lt;/code&gt; keyword, &lt;code&gt;scope&lt;/code&gt; and the &lt;code&gt;call&lt;/code&gt; and &lt;code&gt;apply&lt;/code&gt; methods much easier to understand&amp;hellip;That&amp;rsquo;ll be next!&lt;/p&gt;
 
 &lt;p&gt;&lt;small&gt;*The&lt;code&gt;hasOwnProperty()&lt;/code&gt; method returns a boolean indicating whether the object has the specified property.&lt;/small&gt;&lt;/p&gt;
 </content>

@@ -4,7 +4,7 @@
  <title>antonio's blog</title>
  <link href="antonioortiz.github.io/atom.xml" rel="self"/>
  <link href="antonioortiz.github.io/"/>
- <updated>2016-07-10T17:26:04-04:00</updated>
+ <updated>2016-07-10T17:28:57-04:00</updated>
  <id>antonioortiz.github.io</id>
  <author>
    <name>antonio ortiz</name>
@@ -23,7 +23,7 @@
 
 &lt;p&gt;I&amp;rsquo;ve have been trying to remain disciplined, and not mess around with any frameworks. That has been tough, as their alure is hard to resist. &lt;/p&gt;
 
-&lt;p&gt;Almost all of them have great abstractions and make working with API&amp;rsquo;s easier. They&amp;rsquo;re especially hard to ignore since a lot of companies have utlized them making them as important as knowing JavaScript itself. &lt;/p&gt;
+&lt;p&gt;Almost all of them have great abstractions and make working with API&amp;rsquo;s easier. They&amp;rsquo;re especially hard to ignore since a lot of companies have utlized them, making knowing some frameworks as important as knowing JavaScript itself. &lt;/p&gt;
 
 &lt;p&gt;I suppose that&amp;rsquo;s what it was like when jQuery was new to the scene. It helped with cross-browser problems and made working with XHR/AJAX easier. And those animations must have been like Cat-nip! And like I&amp;rsquo;ve mentioned previously, folks new to programming want to see results right away.&lt;/p&gt;
 

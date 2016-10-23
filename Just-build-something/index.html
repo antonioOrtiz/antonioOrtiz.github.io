@@ -10,21 +10,21 @@
         background-image: -moz-linear-gradient( center top, rgb(221, 221, 221) 50%, rgb(255, 255, 255) 50%)!important;
     }</style></head><body class=theme-base-0f><input type=checkbox class=sidebar-checkbox id=sidebar-checkbox><div class=sidebar id=sidebar><div class=sidebar-item><img class=pic-of-me src=/assets/images/pic_of_me.jpg alt=""><p style="margin-top:40px; padding: 0px 20px; text-align:center; font-size: 13.5px">a blog about the dev world and stuff!</p></div><nav class=sidebar-nav><a class=sidebar-nav-item href="/">Home</a> <a class=sidebar-nav-item href="/about/">About me</a> <a class=sidebar-nav-item href="/work/">My work</a> <span class=sidebar-nav-item>Run by <a href=https://twitter.com/antonio_ortiz>@antonio ortiz<a><br><a href="mailto:17antonio.ortiz@gmail.com?Subject=Question?">17antonio.ortiz@gmail.com<a></a></a></span></nav><div class=sidebar-item><p>&copy; 2016. Antonio Pavicevac-Ortiz</p></div></div><div class=wrap><div class=masthead><div class=containerL><h3 class=masthead-title><a href="/" title=Home>antonio's blog</a> <small>a blog about the dev world and stuff!</small></h3></div></div><div class=bodyWrapper><div class=logoContainer><h2 class=title>Let's get out of<br>the desert together!</h2><picture><!--[if IE 9]><video style="display: none;"><![endif]--><source srcset="/assets/images/crest_1920.png, /assets/images/crest_1920@2x.png 2x" class=crestLogo media="(min-width: 960px)"></source><source srcset="/assets/images/crest_960.png, /assets/images/crest_960@2x.png 2x" class=crestLogo media="(min-width: 768px)"></source><source srcset="/assets/images/crest_768.png, /assets/images/crest_768@2x.png 2x" class=crestLogo media="(min-width: 480px)"></source><source srcset="/assets/images/crest_480.png, /assets/images/crest_480@2x.png 2x" class=crestLogo media="(min-width: 320px)"></source><source srcset="/assets/images/crest_320.png, /assets/images/crest_320@2x.png 2x"><!--[if IE 9]></video><![endif]--><img srcset="/assets/images/crest_320.png, /assets/images/crest_320@2x.png 2x" class=crestLogo widtdalt="aortiz crest"></source></picture></div><div class="containerL content"><a id=showHere></a><div class=post><h1 class=post-title>Just build something!</h1><br><span class=author-name>antonio ortiz</span> <span class=post-date>10 Jul 2016</span><p>Since about January of this year, I&rsquo;ve really tried to stick with learning things which center around &ldquo;Vanilla JS&rdquo;.</p><p>I&rsquo;ve have been trying to remain disciplined, and not mess around with any frameworks. That has been tough, as their alure is hard to resist.</p><p>Almost all of them have great abstractions and make working with API&rsquo;s easier. They&rsquo;re especially hard to ignore since a lot of companies have utlized them, making knowing some frameworks as important as knowing JavaScript itself.</p><p>I suppose that&rsquo;s what it was like when jQuery was new to the scene. It helped with cross-browser problems and made working with XHR/AJAX easier. And those animations must have been like Cat-nip! And like I&rsquo;ve mentioned previously, folks new to programming want to see results right away.</p><p>Well the cool thing is I finally have been able to use some plain ole JavaScript to actually create something useful for work!</p><p>Behold! Essentially at work we would get these HTML pages which we had to repurpose. Anyway, they had some specific href tags that needed their respective target attributes set to self and all others set to blank.</p><div class=highlight><pre><code class=language-javascript data-lang=javascript><span class=kd>var</span> <span class=nx>URLChecker</span> <span class=o>=</span> <span class=p>(</span><span class=kd>function</span> <span class=nx>iffe</span><span class=p>()</span> <span class=p>{</span>
     <span class=kd>var</span> <span class=nx>publicAPI</span> <span class=o>=</span> <span class=p>{</span>
-        <span class=nx>getURL</span><span class=o>:</span> <span class=kd>function</span><span class=p>()</span> <span class=p>{</span>
+        <span class=na>getURL</span><span class=p>:</span> <span class=kd>function</span><span class=p>()</span> <span class=p>{</span>
             <span class=k>for</span> <span class=p>(</span><span class=kd>var</span> <span class=nx>i</span> <span class=o>=</span> <span class=mi>0</span><span class=p>;</span> <span class=nx>i</span> <span class=o>&lt;</span> <span class=nx>arguments</span><span class=p>.</span><span class=nx>length</span><span class=p>;</span> <span class=nx>i</span><span class=o>++</span><span class=p>)</span> <span class=p>{</span>
                 <span class=k>return</span> <span class=p>{</span>
-                    <span class=s1>&#39;foo&#39;</span><span class=o>:</span> <span class=s1>&#39;http://foo.rye.foo.com&#39;</span><span class=p>,</span>
-                    <span class=s1>&#39;foodev&#39;</span><span class=o>:</span> <span class=s1>&#39;http://foodev.rye.avon.com&#39;</span><span class=p>,</span>
-                    <span class=s1>&#39;blargh_sans_w&#39;</span><span class=o>:</span> <span class=s1>&#39;http://blargh.com&#39;</span><span class=p>,</span>
-                    <span class=s1>&#39;blargh&#39;</span><span class=o>:</span> <span class=s1>&#39;http://www.blargh.com&#39;</span><span class=p>,</span>
-                    <span class=s1>&#39;blargh2&#39;</span><span class=o>:</span> <span class=s1>&#39;http://www2.blargh.com&#39;</span>
+                    <span class=s1>'foo'</span><span class=p>:</span> <span class=s1>'http://foo.rye.foo.com'</span><span class=p>,</span>
+                    <span class=s1>'foodev'</span><span class=p>:</span> <span class=s1>'http://foodev.rye.avon.com'</span><span class=p>,</span>
+                    <span class=s1>'blargh_sans_w'</span><span class=p>:</span> <span class=s1>'http://blargh.com'</span><span class=p>,</span>
+                    <span class=s1>'blargh'</span><span class=p>:</span> <span class=s1>'http://www.blargh.com'</span><span class=p>,</span>
+                    <span class=s1>'blargh2'</span><span class=p>:</span> <span class=s1>'http://www2.blargh.com'</span>
                 <span class=p>}[</span><span class=nx>arguments</span><span class=p>[</span><span class=nx>i</span><span class=p>]];</span>
             <span class=p>}</span>
         <span class=p>},</span>
-        <span class=nx>searchURL</span><span class=o>:</span> <span class=kd>function</span><span class=p>(</span><span class=nx>url</span><span class=p>)</span> <span class=p>{</span>
+        <span class=na>searchURL</span><span class=p>:</span> <span class=kd>function</span><span class=p>(</span><span class=nx>url</span><span class=p>)</span> <span class=p>{</span>
             <span class=k>for</span> <span class=p>(</span><span class=kd>var</span> <span class=nx>i</span> <span class=o>=</span> <span class=mi>0</span><span class=p>,</span> <span class=nx>l</span> <span class=o>=</span> <span class=nb>document</span><span class=p>.</span><span class=nx>links</span><span class=p>.</span><span class=nx>length</span><span class=p>;</span> <span class=nx>i</span> <span class=o>&lt;</span> <span class=nx>l</span><span class=p>;</span> <span class=nx>i</span><span class=o>++</span><span class=p>)</span> <span class=p>{</span>
                 <span class=k>if</span> <span class=p>(</span><span class=nb>document</span><span class=p>.</span><span class=nx>links</span><span class=p>[</span><span class=nx>i</span><span class=p>].</span><span class=nx>href</span><span class=p>.</span><span class=nx>indexOf</span><span class=p>(</span><span class=nx>publicAPI</span><span class=p>.</span><span class=nx>getURL</span><span class=p>(</span><span class=nx>url</span><span class=p>)</span> <span class=o>!==</span> <span class=o>-</span><span class=mi>1</span><span class=p>))</span> <span class=p>{</span>
-   <span class=nx>find</span>                 <span class=nb>document</span><span class=p>.</span><span class=nx>links</span><span class=p>[</span><span class=nx>i</span><span class=p>].</span><span class=nx>setAttribute</span><span class=p>(</span><span class=s2>&quot;target&quot;</span><span class=p>,</span> <span class=s2>&quot;_blank&quot;</span><span class=p>);</span>
+   <span class=nx>find</span>                 <span class=nb>document</span><span class=p>.</span><span class=nx>links</span><span class=p>[</span><span class=nx>i</span><span class=p>].</span><span class=nx>setAttribute</span><span class=p>(</span><span class=s2>"target"</span><span class=p>,</span> <span class=s2>"_blank"</span><span class=p>);</span>
                 <span class=p>}</span>
             <span class=p>}</span>
         <span class=p>}</span>
@@ -32,13 +32,13 @@
     
     <span class=k>return</span> <span class=nx>publicAPI</span><span class=p>;</span>
 <span class=p>})();</span></code></pre></div><p>That was my first crack at it, and after some helpful guidenece from people on stackoverflow it has evolved to this:</p><div class=highlight><pre><code class=language-javascript data-lang=javascript><span class=kd>var</span> <span class=nx>MarkUpChecker</span> <span class=o>=</span> <span class=p>(</span><span class=kd>function</span> <span class=nx>iffe</span><span class=p>()</span> <span class=p>{</span>
-    <span class=s1>&#39;use strict&#39;</span><span class=p>;</span>
+    <span class=s1>'use strict'</span><span class=p>;</span>
     <span class=kd>var</span> <span class=nx>URLS</span> <span class=o>=</span> <span class=p>{</span>
-           <span class=s1>&#39;foo&#39;</span><span class=o>:</span> <span class=s1>&#39;http://foo.rye.foo.com&#39;</span><span class=p>,</span>
-           <span class=s1>&#39;foodev&#39;</span><span class=o>:</span> <span class=s1>&#39;http://foodev.rye.avon.com&#39;</span><span class=p>,</span>
-           <span class=s1>&#39;blargh_sans_w&#39;</span><span class=o>:</span> <span class=s1>&#39;http://blargh.com&#39;</span><span class=p>,</span>
-           <span class=s1>&#39;blargh&#39;</span><span class=o>:</span> <span class=s1>&#39;http://www.blargh.com&#39;</span><span class=p>,</span>
-           <span class=s1>&#39;blargh2&#39;</span><span class=o>:</span> <span class=s1>&#39;http://www2.blargh.com&#39;</span>
+           <span class=s1>'foo'</span><span class=p>:</span> <span class=s1>'http://foo.rye.foo.com'</span><span class=p>,</span>
+           <span class=s1>'foodev'</span><span class=p>:</span> <span class=s1>'http://foodev.rye.avon.com'</span><span class=p>,</span>
+           <span class=s1>'blargh_sans_w'</span><span class=p>:</span> <span class=s1>'http://blargh.com'</span><span class=p>,</span>
+           <span class=s1>'blargh'</span><span class=p>:</span> <span class=s1>'http://www.blargh.com'</span><span class=p>,</span>
+           <span class=s1>'blargh2'</span><span class=p>:</span> <span class=s1>'http://www2.blargh.com'</span>
         <span class=p>},</span>
         <span class=nx>publicAPI</span><span class=p>;</span>
 
@@ -49,50 +49,50 @@
     <span class=p>}</span>
     <span class=nx>publicAPI</span> <span class=o>=</span> <span class=p>{</span>
 
-        <span class=nx>addURL</span><span class=o>:</span> <span class=kd>function</span><span class=p>()</span> <span class=p>{</span>
+        <span class=na>addURL</span><span class=p>:</span> <span class=kd>function</span><span class=p>()</span> <span class=p>{</span>
             <span class=k>for</span> <span class=p>(</span><span class=kd>var</span> <span class=nx>i</span> <span class=o>=</span> <span class=mi>0</span><span class=p>;</span> <span class=nx>i</span> <span class=o>&lt;</span> <span class=nx>arguments</span><span class=p>.</span><span class=nx>length</span><span class=p>;</span> <span class=nx>i</span> <span class=o>+=</span> <span class=mi>2</span><span class=p>)</span> <span class=p>{</span>
                 <span class=nx>URLS</span><span class=p>[</span><span class=nx>arguments</span><span class=p>[</span><span class=nx>i</span><span class=p>]]</span> <span class=o>=</span> <span class=nx>arguments</span><span class=p>[</span><span class=nx>i</span> <span class=o>+</span> <span class=mi>1</span><span class=p>];</span>
             <span class=p>}</span>
             <span class=nx>console</span><span class=p>.</span><span class=nx>dir</span><span class=p>(</span><span class=nx>URLS</span><span class=p>);</span>
             <span class=k>return</span> <span class=nx>URLS</span><span class=p>;</span>
         <span class=p>},</span>
-        <span class=nx>searchURL</span><span class=o>:</span> <span class=kd>function</span><span class=p>()</span> <span class=p>{</span>
-            <span class=kd>var</span> <span class=nx>link</span><span class=p>,</span> <span class=nx>url</span><span class=p>,</span> <span class=nx>parser</span><span class=p>,</span> <span class=nx>newPathName</span> <span class=o>=</span> <span class=s1>&#39;&#39;</span><span class=p>,</span>
-                <span class=nx>newstr</span> <span class=o>=</span> <span class=s1>&#39;&#39;</span><span class=p>,</span>
+        <span class=na>searchURL</span><span class=p>:</span> <span class=kd>function</span><span class=p>()</span> <span class=p>{</span>
+            <span class=kd>var</span> <span class=nx>link</span><span class=p>,</span> <span class=nx>url</span><span class=p>,</span> <span class=nx>parser</span><span class=p>,</span> <span class=nx>newPathName</span> <span class=o>=</span> <span class=s1>''</span><span class=p>,</span>
+                <span class=nx>newstr</span> <span class=o>=</span> <span class=s1>''</span><span class=p>,</span>
                 <span class=nx>doc</span> <span class=o>=</span> <span class=nb>document</span><span class=p>,</span>
                 <span class=nx>container</span><span class=p>,</span>
                 <span class=nx>container_links</span><span class=p>,</span>
                 <span class=nx>documentTableWrapper</span><span class=p>,</span>
                 <span class=nx>docBodyFirstChild</span><span class=p>;</span>
 
-            <span class=k>if</span> <span class=p>(</span><span class=o>!</span><span class=nx>doc</span><span class=p>.</span><span class=nx>getElementById</span><span class=p>(</span><span class=s1>&#39;container&#39;</span><span class=p>))</span> <span class=p>{</span>
-                <span class=nx>container</span> <span class=o>=</span> <span class=nx>doc</span><span class=p>.</span><span class=nx>createElement</span><span class=p>(</span><span class=s1>&#39;div&#39;</span><span class=p>);</span>
-                <span class=nx>container</span><span class=p>.</span><span class=nx>setAttribute</span><span class=p>(</span><span class=s1>&#39;id&#39;</span><span class=p>,</span> <span class=s1>&#39;container&#39;</span><span class=p>);</span>
+            <span class=k>if</span> <span class=p>(</span><span class=o>!</span><span class=nx>doc</span><span class=p>.</span><span class=nx>getElementById</span><span class=p>(</span><span class=s1>'container'</span><span class=p>))</span> <span class=p>{</span>
+                <span class=nx>container</span> <span class=o>=</span> <span class=nx>doc</span><span class=p>.</span><span class=nx>createElement</span><span class=p>(</span><span class=s1>'div'</span><span class=p>);</span>
+                <span class=nx>container</span><span class=p>.</span><span class=nx>setAttribute</span><span class=p>(</span><span class=s1>'id'</span><span class=p>,</span> <span class=s1>'container'</span><span class=p>);</span>
 
-                <span class=nx>container_links</span> <span class=o>=</span> <span class=nx>container</span><span class=p>.</span><span class=nx>getElementsByTagName</span><span class=p>(</span><span class=s1>&#39;a&#39;</span><span class=p>);</span>
-                <span class=nx>documentTableWrapper</span> <span class=o>=</span> <span class=nx>doc</span><span class=p>.</span><span class=nx>getElementsByTagName</span><span class=p>(</span><span class=s1>&#39;table&#39;</span><span class=p>)[</span><span class=mi>0</span><span class=p>];</span>
+                <span class=nx>container_links</span> <span class=o>=</span> <span class=nx>container</span><span class=p>.</span><span class=nx>getElementsByTagName</span><span class=p>(</span><span class=s1>'a'</span><span class=p>);</span>
+                <span class=nx>documentTableWrapper</span> <span class=o>=</span> <span class=nx>doc</span><span class=p>.</span><span class=nx>getElementsByTagName</span><span class=p>(</span><span class=s1>'table'</span><span class=p>)[</span><span class=mi>0</span><span class=p>];</span>
                 <span class=nx>container</span><span class=p>.</span><span class=nx>appendChild</span><span class=p>(</span><span class=nx>documentTableWrapper</span><span class=p>);</span>
-                <span class=nx>container</span><span class=p>.</span><span class=nx>className</span> <span class=o>=</span> <span class=s1>&#39;container-news&#39;</span><span class=p>;</span>
+                <span class=nx>container</span><span class=p>.</span><span class=nx>className</span> <span class=o>=</span> <span class=s1>'container-news'</span><span class=p>;</span>
                 <span class=nx>docBodyFirstChild</span> <span class=o>=</span> <span class=nx>doc</span><span class=p>.</span><span class=nx>body</span><span class=p>.</span><span class=nx>firstChild</span><span class=p>;</span>
                 <span class=nx>doc</span><span class=p>.</span><span class=nx>body</span><span class=p>.</span><span class=nx>insertBefore</span><span class=p>(</span><span class=nx>container</span><span class=p>,</span> <span class=nx>docBodyFirstChild</span><span class=p>);</span>
 
             <span class=p>}</span> <span class=k>else</span> <span class=p>{</span>
-                <span class=nx>container_links</span> <span class=o>=</span> <span class=nx>doc</span><span class=p>.</span><span class=nx>getElementById</span><span class=p>(</span><span class=s1>&#39;container&#39;</span><span class=p>).</span><span class=nx>getElementsByTagName</span><span class=p>(</span><span class=s1>&#39;a&#39;</span><span class=p>);</span>
+                <span class=nx>container_links</span> <span class=o>=</span> <span class=nx>doc</span><span class=p>.</span><span class=nx>getElementById</span><span class=p>(</span><span class=s1>'container'</span><span class=p>).</span><span class=nx>getElementsByTagName</span><span class=p>(</span><span class=s1>'a'</span><span class=p>);</span>
             <span class=p>}</span>
             <span class=k>for</span> <span class=p>(</span><span class=kd>var</span> <span class=nx>i</span> <span class=o>=</span> <span class=mi>0</span><span class=p>,</span> <span class=nx>len</span> <span class=o>=</span> <span class=nx>arguments</span><span class=p>.</span><span class=nx>length</span><span class=p>;</span> <span class=nx>i</span> <span class=o>&lt;</span> <span class=nx>len</span><span class=p>;</span> <span class=nx>i</span><span class=o>++</span><span class=p>)</span> <span class=p>{</span>
                 <span class=nx>url</span> <span class=o>=</span> <span class=nx>getURL</span><span class=p>(</span><span class=nx>arguments</span><span class=p>[</span><span class=nx>i</span><span class=p>]);</span>
                 <span class=k>for</span> <span class=p>(</span><span class=kd>var</span> <span class=nx>j</span> <span class=o>=</span> <span class=mi>0</span><span class=p>,</span> <span class=nx>jlen</span> <span class=o>=</span> <span class=nx>container_links</span><span class=p>.</span><span class=nx>length</span><span class=p>;</span> <span class=nx>j</span> <span class=o>&lt;</span> <span class=nx>jlen</span><span class=p>;</span> <span class=nx>j</span><span class=o>++</span><span class=p>)</span> <span class=p>{</span>
                     <span class=nx>link</span> <span class=o>=</span> <span class=nx>container_links</span><span class=p>[</span><span class=nx>j</span><span class=p>];</span>
                     <span class=k>if</span> <span class=p>(</span><span class=nx>link</span><span class=p>.</span><span class=nx>href</span><span class=p>.</span><span class=nx>indexOf</span><span class=p>(</span><span class=nx>url</span><span class=p>)</span> <span class=o>!==</span> <span class=o>-</span><span class=mi>1</span><span class=p>)</span> <span class=p>{</span>
-                        <span class=nx>parser</span> <span class=o>=</span> <span class=nb>document</span><span class=p>.</span><span class=nx>createElement</span><span class=p>(</span><span class=s1>&#39;a&#39;</span><span class=p>);</span>
+                        <span class=nx>parser</span> <span class=o>=</span> <span class=nb>document</span><span class=p>.</span><span class=nx>createElement</span><span class=p>(</span><span class=s1>'a'</span><span class=p>);</span>
                         <span class=nx>parser</span><span class=p>.</span><span class=nx>href</span> <span class=o>=</span> <span class=nx>link</span><span class=p>.</span><span class=nx>href</span><span class=p>;</span>
 
-                        <span class=nx>link</span><span class=p>.</span><span class=nx>setAttribute</span><span class=p>(</span><span class=s1>&#39;target&#39;</span><span class=p>,</span> <span class=s1>&#39;_self&#39;</span><span class=p>);</span>
+                        <span class=nx>link</span><span class=p>.</span><span class=nx>setAttribute</span><span class=p>(</span><span class=s1>'target'</span><span class=p>,</span> <span class=s1>'_self'</span><span class=p>);</span>
                         <span class=nx>newPathName</span> <span class=o>=</span> <span class=nx>parser</span><span class=p>.</span><span class=nx>pathname</span><span class=p>;</span>
 
 
                         <span class=k>if</span> <span class=p>(</span><span class=nx>newPathName</span><span class=p>.</span><span class=nx>search</span><span class=p>(</span><span class=sr>/Executive|District|Division|National/</span><span class=p>)</span> <span class=o>!=</span> <span class=o>-</span><span class=mi>1</span><span class=p>)</span> <span class=p>{</span>
-                            <span class=nx>newPathName</span> <span class=o>=</span> <span class=nx>newPathName</span><span class=p>.</span><span class=nx>split</span><span class=p>(</span><span class=s1>&#39;/&#39;</span><span class=p>).</span><span class=nx>pop</span><span class=p>();</span>
+                            <span class=nx>newPathName</span> <span class=o>=</span> <span class=nx>newPathName</span><span class=p>.</span><span class=nx>split</span><span class=p>(</span><span class=s1>'/'</span><span class=p>).</span><span class=nx>pop</span><span class=p>();</span>
                             <span class=nx>newstr</span> <span class=o>=</span> <span class=nx>newPathName</span><span class=p>;</span>
                         <span class=p>}</span> <span class=k>else</span> <span class=p>{</span>
                             <span class=nx>newstr</span> <span class=o>=</span> <span class=nx>newPathName</span><span class=p>;</span>
@@ -100,7 +100,7 @@
 
                         <span class=nx>link</span><span class=p>.</span><span class=nx>href</span> <span class=o>=</span> <span class=nx>newstr</span><span class=p>;</span>
                     <span class=p>}</span> <span class=k>else</span> <span class=p>{</span>
-                        <span class=nx>link</span><span class=p>.</span><span class=nx>setAttribute</span><span class=p>(</span><span class=s1>&#39;target&#39;</span><span class=p>,</span> <span class=s1>&#39;_blank&#39;</span><span class=p>);</span>
+                        <span class=nx>link</span><span class=p>.</span><span class=nx>setAttribute</span><span class=p>(</span><span class=s1>'target'</span><span class=p>,</span> <span class=s1>'_blank'</span><span class=p>);</span>
 
                     <span class=p>}</span>
 
